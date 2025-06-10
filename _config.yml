@@ -29,8 +29,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  konishi51
 
 # Build settings
-# theme: minima
-theme: jekyll-theme-architect
+theme: minima
 # theme: owner/name --> Don't forget to remove/comment the gem-based theme option
 plugins:
   - jekyll-feed
