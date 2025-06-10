@@ -22,7 +22,7 @@ title: AI品質マネジメントイニシアティブ
 email: M-aiqmi-secretariat-ml@aist.go.jp
 description: >- # this means to ignore newlines until "baseurl:"
   AI品質マネジメントイニシアティブはAI品質の実現に取り組む事業者の互助を目的とする
-　企業コンソーシアムです。
+企業コンソーシアムです。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
