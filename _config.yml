@@ -18,15 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: AI品質マネジメントイニシアティブ
-email: M-aiqmi-secretariat-ml@aist.go.jp
+title: Lack Thereof
+email: ""
 description: >- # this means to ignore newlines until "baseurl:"
-  AI品質マネジメントイニシアティブはAI品質の実現に取り組む事業者の互助を目的とする
-  産業コンソーシアムです。
+  映画、PC、外国語、SF、ボードゲーム。毎日が世界街歩き、だった。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
-github_username:  konishi51
+# github_username:  konishi51
 
 # Build settings
 theme: minima
