@@ -60,6 +60,6 @@ Neier Wein つってるから、今年のブドウで作ったんだと思う。
 
 [![ハンググライダーの群れ](https://res.cloudinary.com/di7y4t4ad/image/upload/article/241/img14-thumb.jpg)](https://res.cloudinary.com/di7y4t4ad/image/upload/article/241/img14-full.jpg)
 
-ブドウ畑の山の上にはたくさんのパラグライダーとハンググライダーの群れ（[ビデオ](hhttp://bit.ly/aILIyb)）。とても気持ちよさそう。
+ブドウ畑の山の上にはたくさんのパラグライダーとハンググライダーの群れ（[ビデオ](http://bit.ly/aILIyb)）。とても気持ちよさそう。
 
 しこたま飲んできたが、家まで電車ですぐなので問題なし。とても幸せ。
