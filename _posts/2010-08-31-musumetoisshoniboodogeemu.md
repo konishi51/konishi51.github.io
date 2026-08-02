@@ -12,7 +12,7 @@ tags: [ボードゲーム,娘と一緒に]
 
 アルハンブラ ダイス [Alhambra Das Würfelspiel](http://www.queen-games.de/index.php?id=1821)
 
-テーベの東 [Jenseits von Theben](hhttp://www.queen-games.de/index.php?id=2417)
+テーベの東 [Jenseits von Theben](http://www.queen-games.de/index.php?id=2417)
 
 ブタ騒動 [Schweine Bammel](http://www.dreimagier.de/index.php?spielsess=93cdc1345eb945b55977232f365ad992&id=438&aid=1187)
 
