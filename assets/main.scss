@@ -1,0 +1,36 @@
+---
+---
+
+@import "minima";
+
+.year-jump {
+  margin: 0 0 $spacing-unit;
+  line-height: 1.9;
+}
+
+.year-jump-label {
+  color: $grey-color;
+}
+
+.year-jump a {
+  display: inline-block;
+  margin-right: 0.75em;
+}
+
+.post-list > .post-year {
+  align-items: baseline;
+  border-bottom: 1px solid $grey-color-light;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: $spacing-unit;
+  padding-top: $spacing-unit;
+}
+
+.post-list > .post-year h3 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.back-to-top {
+  font-size: $small-font-size;
+}
