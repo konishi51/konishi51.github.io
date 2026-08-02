@@ -53,6 +53,4 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - about.md
-  - about.markdown
   - AGENTS.md
