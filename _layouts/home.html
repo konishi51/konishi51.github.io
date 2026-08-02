@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+<div class="home" id="top">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+
+    <nav class="year-jump" aria-label="年別の記事一覧">
+      <span class="year-jump-label">年別：</span>
+      {%- assign previous_year = "" -%}
+      {%- for post in site.posts -%}
+        {%- assign post_year = post.date | date: "%Y" -%}
+        {%- if post_year != previous_year -%}
+          <a href="#year-{{ post_year }}">{{ post_year }}</a>
+          {%- assign previous_year = post_year -%}
+        {%- endif -%}
+      {%- endfor -%}
+    </nav>
+
+    <ul class="post-list">
+      {%- assign previous_year = "" -%}
+      {%- for post in site.posts -%}
+        {%- assign post_year = post.date | date: "%Y" -%}
+        {%- if post_year != previous_year -%}
+        <li class="post-year" id="year-{{ post_year }}">
+          <h3>{{ post_year }}</h3>
+          <a class="back-to-top" href="#top">上へ戻る</a>
+        </li>
+          {%- assign previous_year = post_year -%}
+        {%- endif -%}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  {%- endif -%}
+
+</div>
