@@ -6,7 +6,7 @@ tags: [世界街歩き]
 
 ![Cafe am Markt, Calw](https://res.cloudinary.com/di7y4t4ad/image/upload/article/269/img1-thumb.jpg)
 
-昨日の記事で、アイスを食った店 "Café am Markt" を外からみたところ。
+昨日の記事で、アイスを食った店 "Café am Markt" を外からみたところ。<br>
 さらに遠くから全体を見下ろした [PhotoSynth](http://photosynth.net/view.aspx?cid=cb8d42a7-78e9-411f-a63e-14ace079336e) 。枚数控えめ。
 
 メニューの最初のページに、店の来歴について書いてあって、16世紀から代々やっているらしい。この店と、通りをはさんで向かいの建物は、その割合最初の頃の何代目かが建てたんだそうだ。どちらの建物にも特徴的な模様が見える。
