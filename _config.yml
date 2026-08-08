@@ -54,3 +54,7 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - AGENTS.md
+  - PROJECT_STATUS.md
+  - docs/
+  - script/
+  - scripts/

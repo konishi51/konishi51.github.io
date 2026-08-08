@@ -1,0 +1,56 @@
+#!/usr/bin/env bash
+set -u
+
+cd "$(dirname "$0")/.."
+failures=0
+
+pass() { printf 'PASS  %s\n' "$*"; }
+warn() { printf 'WARN  %s\n' "$*"; }
+fail() { printf 'FAIL  %s\n' "$*"; failures=$((failures + 1)); }
+
+required_ruby="$(tr -d '[:space:]' < .ruby-version)"
+required_bundler="$(awk '/^BUNDLED WITH$/{getline; gsub(/^[[:space:]]+/, ""); print; exit}' Gemfile.lock)"
+
+if command -v git >/dev/null 2>&1; then pass "Git: $(git --version)"; else fail "Git is not on PATH"; fi
+if command -v python3 >/dev/null 2>&1; then pass "Python: $(python3 --version)"; else fail "Python 3 is not on PATH"; fi
+
+if command -v ruby >/dev/null 2>&1; then
+  actual_ruby="$(ruby -e 'print RUBY_VERSION')"
+  if [[ "$actual_ruby" == "$required_ruby" ]]; then pass "Ruby ${actual_ruby}"; else fail "Ruby ${required_ruby} required; found ${actual_ruby}"; fi
+  if ruby -rpsych -e 'exit' >/dev/null 2>&1; then pass "Ruby Psych/libyaml support"; else fail "Ruby Psych/libyaml support is unavailable"; fi
+else
+  fail "Ruby ${required_ruby} is not on PATH"
+fi
+
+if command -v bundle >/dev/null 2>&1; then
+  actual_bundler="$(bundle --version 2>/dev/null | awk '{print $3}')"
+  if [[ "$actual_bundler" == "$required_bundler" ]]; then pass "Bundler ${actual_bundler}"; else fail "Bundler ${required_bundler} required; found ${actual_bundler:-unknown}"; fi
+else
+  fail "Bundler ${required_bundler} is not on PATH"
+fi
+
+gh_path="$(command -v gh 2>/dev/null || true)"
+if [[ -z "$gh_path" && -x /workspace/bin/gh ]]; then gh_path=/workspace/bin/gh; fi
+if [[ -n "$gh_path" ]]; then
+  pass "GitHub CLI exists: ${gh_path}"
+  if command -v gh >/dev/null 2>&1; then pass "GitHub CLI is on PATH"; else warn "GitHub CLI is not on PATH"; fi
+  warn "GitHub CLI authentication not checked or used (permission issue unresolved)"
+else
+  warn "GitHub CLI not found; it is optional"
+fi
+
+origin_url="$(git remote get-url origin 2>/dev/null || true)"
+case "$origin_url" in
+  https://github.com/konishi51/konishi51.github.io.git|git@github.com:konishi51/konishi51.github.io.git)
+    pass "Git remote is the permitted repository"
+    ;;
+  '') warn "No Git origin configured" ;;
+  *) fail "Git origin is outside the permitted repository: ${origin_url}" ;;
+esac
+
+if (( failures > 0 )); then
+  printf '\nDoctor found %d blocking issue(s).\n' "$failures"
+  exit 1
+fi
+
+printf '\nDoctor found no blocking issues.\n'
