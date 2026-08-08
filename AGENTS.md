@@ -1,5 +1,7 @@
 # Lack Thereof project guidance
 
+For the current project state and environment setup, read `PROJECT_STATUS.md` and `docs/ENVIRONMENT.md` before starting work.
+
 ## Project purpose
 
 This repository contains the Lack Thereof blog. It may later include a Wiki, structured article metadata, and materials describing the author's writing style and perspective.

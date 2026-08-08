@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+cd "$(dirname "$0")/.."
+
+python3 scripts/check-collapsed-lists.py
+python3 scripts/check-collapsed-links.py
+
+if ! command -v bundle >/dev/null 2>&1; then
+  echo "ERROR Bundler is unavailable. Run script/bootstrap first." >&2
+  exit 1
+fi
+
+rm -rf _site
+JEKYLL_ENV=production bundle exec jekyll build
+
+post_count="$(find _posts -maxdepth 1 -type f -name '*.md' | wc -l | tr -d '[:space:]')"
+html_count="$(find _site -type f -name '*.html' | wc -l | tr -d '[:space:]')"
+expected_html=$((post_count + 3))
+
+if [[ "$post_count" -lt 315 ]]; then
+  echo "ERROR Expected at least 315 posts; found ${post_count}." >&2
+  exit 1
+fi
+
+if [[ "$html_count" -ne "$expected_html" ]]; then
+  echo "ERROR Expected ${expected_html} generated HTML files for ${post_count} posts; found ${html_count}." >&2
+  exit 1
+fi
+
+echo "PASS  ${post_count} posts"
+echo "PASS  ${html_count} generated HTML files"
+echo "All tests passed."

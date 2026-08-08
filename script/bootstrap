@@ -1,0 +1,44 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+cd "$(dirname "$0")/.."
+
+# Keep tool caches inside the ignored project vendor directory. Some clean
+# workspaces expose a read-only home directory.
+export XDG_CACHE_HOME="${XDG_CACHE_HOME:-$PWD/vendor/cache}"
+
+required_ruby="$(tr -d '[:space:]' < .ruby-version)"
+required_bundler="$(awk '/^BUNDLED WITH$/{getline; gsub(/^[[:space:]]+/, ""); print; exit}' Gemfile.lock)"
+
+if ! command -v ruby >/dev/null 2>&1; then
+  echo "ERROR Ruby ${required_ruby} is required but ruby is not on PATH." >&2
+  echo "Install it with the Ruby version manager available on this machine; see docs/ENVIRONMENT.md." >&2
+  exit 1
+fi
+
+actual_ruby="$(ruby -e 'print RUBY_VERSION')"
+if [[ "$actual_ruby" != "$required_ruby" ]]; then
+  echo "ERROR Ruby ${required_ruby} is required; found ${actual_ruby}." >&2
+  exit 1
+fi
+
+if ! ruby -rpsych -e 'exit' >/dev/null 2>&1; then
+  echo "ERROR Ruby ${required_ruby} was built without Psych/libyaml support." >&2
+  echo "Install a complete Ruby build before installing the site gems." >&2
+  exit 1
+fi
+
+if ! command -v gem >/dev/null 2>&1; then
+  echo "ERROR RubyGems is not available." >&2
+  exit 1
+fi
+
+if ! command -v bundle >/dev/null 2>&1 || [[ "$(bundle --version 2>/dev/null | awk '{print $3}')" != "$required_bundler" ]]; then
+  echo "Installing Bundler ${required_bundler}..."
+  gem install bundler --version "$required_bundler" --no-document
+fi
+
+bundle config set --local path vendor/bundle
+bundle install
+
+echo "Bootstrap complete: Ruby ${actual_ruby}, Bundler ${required_bundler}."
