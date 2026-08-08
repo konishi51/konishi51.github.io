@@ -6,9 +6,9 @@ tags: [本,チューダー朝]
 
 一作目よりも二作目、二作目よりも三作目の方が面白い。たとえば、一作目の舞台は地方のとある修道院の中がほとんどなのだけど、二作目はロンドン市街が舞台になって、テムズ川の両岸を行ったり来たりする。三作目は、ヘンリー8世の北部巡幸に随行する形で、ロンドンからヨークまで行動範囲が広がる。
 
-[チューダー朝弁護士シャードレイク](http://books.shueisha.co.jp/CGI/search/syousai_put.cgi?isbn_cd=978-4-08-760648-5) （原題： Dissolution ）
-暗き炎 [上](http://books.shueisha.co.jp/CGI/search/syousai_put.cgi?isbn_cd=978-4-08-760670-6)・[下](http://books.shueisha.co.jp/CGI/search/syousai_put.cgi?isbn_cd=978-4-08-760671-3) （原題： Dark Fire）
-支配者 [上](http://books.shueisha.co.jp/CGI/search/syousai_put.cgi?isbn_cd=978-4-08-760694-2)・[下](http://books.shueisha.co.jp/CGI/search/syousai_put.cgi?isbn_cd=978-4-08-760695-9) （原題： Sovereign）
+[チューダー朝弁護士シャードレイク](http://books.shueisha.co.jp/CGI/search/syousai_put.cgi?isbn_cd=978-4-08-760648-5) （原題： Dissolution ）<br>
+暗き炎 [上](http://books.shueisha.co.jp/CGI/search/syousai_put.cgi?isbn_cd=978-4-08-760670-6)・[下](http://books.shueisha.co.jp/CGI/search/syousai_put.cgi?isbn_cd=978-4-08-760671-3) （原題： Dark Fire）<br>
+支配者 [上](http://books.shueisha.co.jp/CGI/search/syousai_put.cgi?isbn_cd=978-4-08-760694-2)・[下](http://books.shueisha.co.jp/CGI/search/syousai_put.cgi?isbn_cd=978-4-08-760695-9) （原題： Sovereign）<br>
 いずれも、C. J. サンソム (C. J. Sansom) 集英社文庫
 
 逆にいうと、一作目はちょっと華やかさに欠けると言えるかも。でも、後の楽しみを思って、ぜひ一作目から読んでほしい。

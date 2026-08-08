@@ -16,7 +16,7 @@ tags: [世界街歩き]
 
 [![哲学の道の脇の公園](https://res.cloudinary.com/di7y4t4ad/image/upload/article/207/img3-thumb.jpg)](https://res.cloudinary.com/di7y4t4ad/image/upload/article/207/img3-full.jpg)
 
-もうちょっと奥のベンチはカップルが占拠していて、ひざまくらでひなたぼっこ。いいなぁ。
+もうちょっと奥のベンチはカップルが占拠していて、ひざまくらでひなたぼっこ。いいなぁ。<br>
 それは写真を撮るわけにはいかず、パス。さらに奥に行くと、
 
 [![哲学の道のベンチ](https://res.cloudinary.com/di7y4t4ad/image/upload/article/207/img4-thumb.jpg)](https://res.cloudinary.com/di7y4t4ad/image/upload/article/207/img4-full.jpg)
@@ -29,7 +29,7 @@ tags: [世界街歩き]
 
 ![川辺の遊歩道](https://res.cloudinary.com/di7y4t4ad/image/upload/article/207/img6-thumb.jpg)
 
-先月は雪解け水による増水で水没していた、川辺の遊歩道が復活していた。
+先月は雪解け水による増水で水没していた、川辺の遊歩道が復活していた。<br>
 先月はこうだった。
 
 ![水没した遊歩道](https://res.cloudinary.com/di7y4t4ad/image/upload/article/207/img7-thumb.jpg)

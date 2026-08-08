@@ -26,12 +26,12 @@ Men In Black 3 [メン・イン・ブラック 3](http://mib-3.com/)
 
 いやいやいや、そう思ったのは僕だけじゃなかったよ。この [記事](http://www.metroactive.com/movies/mib3.html)にもこんなこと書いてあるよ。
 
-> The agents are aided by Griffin, an alien bag-gentleman who sees in five dimensions; he's played by Michael Stuhlbarg of A Serious Man, doing his best Robin Williams, outfitted with layers of clothing, a yarn hat, bulgy blue contact lenses and a blissed-out grin.
+> The agents are aided by Griffin, an alien bag-gentleman who sees in five dimensions; he's played by Michael Stuhlbarg of A Serious Man, doing his best Robin Williams, outfitted with layers of clothing, a yarn hat, bulgy blue contact lenses and a blissed-out grin.<br>
 >  エージェントたちを助けるのはグリフィン。ずた袋おじさんの宇宙人で、5つの次元を見る力がある。これを演じるのはシリアスマンのマイケル・スタールバーグ。何枚もの服を重ね着して、毛糸の帽子に目立つ青のコンタクト、最高に幸せそうな笑みを浮かべて、めいっぱいロビン・ウィリアムズを演じていた。
 
 こっちの[記事](http://www.berkshireeagle.com/entertainment/ci_20715530/men-black-3-an-airy-popcorn-flick?source=rss)にも。
 
-> Michael Stuhlbarg has Robin Williams’ squinty, impish smile.
+> Michael Stuhlbarg has Robin Williams’ squinty, impish smile.<br>
 >  マイケル・スタールバーグはロビン・ウィリアムズの目を細めた、いたずらっぽい笑顔ができる。
 
 おお、[まだ](http://veryaware.com/2012/05/review-%E2%80%93-men-in-black-iii/)[まだ](http://www.mandatory.com/2012/05/24/movie-review-good-performances-in-men-in-black-3-cant-make-up/#page=1)ある。どうだ、まいったか。
@@ -40,16 +40,16 @@ Men In Black 3 [メン・イン・ブラック 3](http://mib-3.com/)
 
 一番笑ったのは、この辺。笑っちゃいけないようなのもあるけど、そういうのほど笑っちゃうんだよ。
 
-・過去に戻ったJがKをKと呼んだ為、
-「なぜ俺の名前を知っている」と尋問されて、
-「俺は見ず知らずの男はKって呼ぶ癖があるんだよ」とごまかすJ。
-そこに通りがかった過去のO。思わずJは「ひょっとして…Oかい?」と聞いてしまう。
-「さて、なぜOの名前も知ってるのか教えてもらおうか」
+・過去に戻ったJがKをKと呼んだ為、<br>
+「なぜ俺の名前を知っている」と尋問されて、<br>
+「俺は見ず知らずの男はKって呼ぶ癖があるんだよ」とごまかすJ。<br>
+そこに通りがかった過去のO。思わずJは「ひょっとして…Oかい?」と聞いてしまう。<br>
+「さて、なぜOの名前も知ってるのか教えてもらおうか」<br>
 「俺は…知らない女性はOって呼ぶんだよ。だからカップルを見ると "OK" なんちて」
 
-・この映画のタイムマシンは、高いところから飛び降りないと作動しない。過去に戻るため、ニューヨークのクライスラービルから飛び降りるJ。
-地上めがけて落ちていく間、1969年にまっすぐ戻らず、途中でもっと過去の色んな年代の風景が現れる。終戦の日とかね。
-で、1929年の大恐慌の新聞見出しが出たかと思うと、窓から飛び降りた投資家達がJを追い越していく…
+・この映画のタイムマシンは、高いところから飛び降りないと作動しない。過去に戻るため、ニューヨークのクライスラービルから飛び降りるJ。<br>
+地上めがけて落ちていく間、1969年にまっすぐ戻らず、途中でもっと過去の色んな年代の風景が現れる。終戦の日とかね。<br>
+で、1929年の大恐慌の新聞見出しが出たかと思うと、窓から飛び降りた投資家達がJを追い越していく…<br>
 今ググって調べた感じだと、大恐慌でニューヨークの摩天楼から飛び降りた投資家達、というのは居た事は居たらしいけど、ごくわずかだったらしい。
 
 で、よく分からなかったこと。

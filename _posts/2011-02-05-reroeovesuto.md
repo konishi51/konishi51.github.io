@@ -26,5 +26,5 @@ tags: [お出かけ]
 
 **時間があったら翌日もう一度行きたい** 、とまで思ったのは自分でも驚いたけど本当。この店の他のメニューを食べてみたい。酒も飲みたかったなー。
 
-[L’EROE OVEST 三規庭](http://r.tabelog.com/kanagawa/A1402/A140201/14011609/) （[イタリアン](http://r.tabelog.com/italian/) / [あざみ野駅](http://r.tabelog.com/kanagawa/A1402/A140201/R255/)）
+[L’EROE OVEST 三規庭](http://r.tabelog.com/kanagawa/A1402/A140201/14011609/) （[イタリアン](http://r.tabelog.com/italian/) / [あざみ野駅](http://r.tabelog.com/kanagawa/A1402/A140201/R255/)）<br>
 昼総合点★★★★★ 5.0

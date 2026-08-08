@@ -6,7 +6,7 @@ tags: [ボードゲーム,娘と一緒に]
 
 ![二つ同じ色](https://res.cloudinary.com/di7y4t4ad/image/upload/article/150/img1-thumb.jpg)
 
-青・赤・黄・緑に光る、４つのキューブを並べ替えて、正しい順序を見つけると１点！
+青・赤・黄・緑に光る、４つのキューブを並べ替えて、正しい順序を見つけると１点！<br>
 制限時間内に、何点取れるかな？
 
 [Simon Flash](http://www.simonflashreview.com/) サイモン・フラッシュ

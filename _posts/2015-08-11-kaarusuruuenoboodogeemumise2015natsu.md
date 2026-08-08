@@ -34,9 +34,9 @@ tags: [ボードゲーム,娘と一緒に]
 
 箱の重いゲームに興味を引かれつつ、日本に持ってかえる手間と、ドイツ語でやる敷居の高さを考えて、もう少し軽いゲームをいくつか買った。
 
-[Colt Express](http://www.asmodee.de/ressources/jeux_versions/colt-express_2.php)
-[Machi Koro](http://www.kosmos.de/produktdetail-1-1/machi_koro-7919/)
-[Dobble](http://de.asmodee.com/ressources/jeux_versions/dobble_4.php)
+[Colt Express](http://www.asmodee.de/ressources/jeux_versions/colt-express_2.php)<br>
+[Machi Koro](http://www.kosmos.de/produktdetail-1-1/machi_koro-7919/)<br>
+[Dobble](http://de.asmodee.com/ressources/jeux_versions/dobble_4.php)<br>
 [Love Letter](http://www.pegasus.de/detailansicht/18210g-love-letter-deutsche-ausgabe/)
 
 Colt Express は、ゲームボードの代わりに、立体的な列車の上でコマを動かす。列車はカードボードから部品を外して組み立てるのだけど、組み立てた後もちゃんと箱に収まるようになっている。二人でやっても、めっちゃ楽しい。五人ぐらいでやると、さぞかし賑やかだろうな。

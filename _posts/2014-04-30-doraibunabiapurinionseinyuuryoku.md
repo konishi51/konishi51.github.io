@@ -10,7 +10,7 @@ tags: [お出かけ,娘と一緒に,PC]
 
 で、久しぶりにちょっとしたドライブなので、ドライブナビのアプリを試してみた。しばらく前から、NAVITIMEのドライブサポーターを使って気に入ってはいたんだけど、今回は音声で操作ができるという、同じNAVITIMEのカーナビタイムを試してみた。１ヶ月無料でお試し。ゴールデンウィーク中は使いでがありそう。
 
-[カーナビタイム](http://products.navitime.co.jp/service/carnavitime/) NAVITIME
+[カーナビタイム](http://products.navitime.co.jp/service/carnavitime/) NAVITIME<br>
 [ドライブサポーター](http://products.navitime.co.jp/service/drive/) NAVITIME
 
 iPhoneにアプリをインストールし、フロントグラスの中央、下の方にホルダで固定。iPhoneの画面が小さいので、あまり視線をそらさずに見える位置にした。しかし、ということは、運転席からは、かなり身を乗り出さないと手が届かない位置。運転中には操作できないし、信号待ちの間でも、あまり気軽には触れない。
