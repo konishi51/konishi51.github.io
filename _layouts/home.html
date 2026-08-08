@@ -12,6 +12,14 @@ layout: default
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
 
+    <form class="site-search-form home-search-form" action="{{ "/search/" | relative_url }}" method="get" role="search">
+      <label for="home-search-query">記事本文を検索</label>
+      <div class="site-search-controls">
+        <input id="home-search-query" name="q" type="search" autocomplete="off">
+        <button type="submit">検索</button>
+      </div>
+    </form>
+
     <nav class="year-jump" aria-label="年別の記事一覧">
       <span class="year-jump-label">年別：</span>
       {%- assign previous_year = "" -%}
