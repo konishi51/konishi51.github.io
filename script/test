@@ -11,9 +11,15 @@ if ! command -v bundle >/dev/null 2>&1; then
   exit 1
 fi
 
+if ! command -v node >/dev/null 2>&1; then
+  echo "ERROR Node.js is unavailable; it is required for the search JavaScript checks." >&2
+  exit 1
+fi
+
 rm -rf _site
 JEKYLL_ENV=production bundle exec jekyll build
 python3 scripts/check-search.py
+node scripts/check-search-highlighting.js
 
 post_count="$(find _posts -maxdepth 1 -type f -name '*.md' | wc -l | tr -d '[:space:]')"
 html_count="$(find _site -type f -name '*.html' | wc -l | tr -d '[:space:]')"
