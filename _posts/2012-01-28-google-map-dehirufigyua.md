@@ -20,7 +20,7 @@ tags: [PC,世界街歩き]
 
 ヒルフィギュアそのものを見るには、 「大きい地図でみる」をたどって、航空写真にして、縮尺目盛りを100mに拡大して、左のリストにある名前をクリックしてみてください。
 
-もとネタはこのサイト：
+もとネタはこのサイト：<br>
 [ Top 10: Britain's largest hill figures ](http://www.telegraph.co.uk/travel/picturegalleries/5758415/Top-10-Britains-largest-hill-figures.html)
 
 ここには、各ヒルフィギュアがある町の名前が全部書いてある。たとえば、 Whipsnade White Lion でいえば Whipsnade が最寄の町。なので、これを Google Map で検索すれば一発で分かる、はずだった。

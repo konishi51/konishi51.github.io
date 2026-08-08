@@ -16,8 +16,8 @@ tags: [ボードゲーム,世界街歩き]
 
 今回仕入れたのは以下の３つ。
 
-**[Walnut Grove](http://lookout-games.de/spiele/walnut_grove/)**
-**[The City](http://www.amigo-spiele.de/artikel-101900.html)**
+**[Walnut Grove](http://lookout-games.de/spiele/walnut_grove/)**<br>
+**[The City](http://www.amigo-spiele.de/artikel-101900.html)**<br>
 **[Lancaster](http://queen-games.de/games.aspx?ProductId=34)**
 
 事前に少し先達の方々のページを散策して、見当をつけていきました。色々見たのですけど、下記のページにかなり影響受けました。

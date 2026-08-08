@@ -8,8 +8,8 @@ tags: [ボードゲーム,娘と一緒に]
 
 今回のお土産は三つ。
 
-[ Agricola](http://www.amazon.co.jp/dp/B001NXC9HA) (アグリコラ)
-[ Wanzen Tanzen](http://www.amazon.de/dp/B006C1UDZ8) (虫たちの踊り?)
+[ Agricola](http://www.amazon.co.jp/dp/B001NXC9HA) (アグリコラ)<br>
+[ Wanzen Tanzen](http://www.amazon.de/dp/B006C1UDZ8) (虫たちの踊り?)<br>
 [ Piraten Kapern](http://www.amazon.de/dp/B006C1UERA) (海賊たちの宝探し?)
 
 **アグリコラ** はまだ3回しかやってない。１回目は家族ルールで。 [ 準備  ](/2012/04/23/shikabanagurikoranoasobihou.html) の甲斐あって、娘もすぐにルールを理解。その後2回、正式ルールで やってみた。でも最初のデッキ(Eデッキ)しか使ってみてない。

@@ -50,5 +50,5 @@ tags: [お出かけ]
 
 中華、というか、和風の甘味処にありそうな素材の率が高かった気がしますが、和洋中が組み合わさった、やや不思議な、でもしっかりデザート感のある食べ物でした。
 
-[中国料理 堀内 ](http://r.tabelog.com/kanagawa/A1402/A140202/14007887/) （[中華料理](http://r.tabelog.com/chinese/) / [青葉台駅](http://r.tabelog.com/kanagawa/A1402/A140202/R78/)）
+[中国料理 堀内 ](http://r.tabelog.com/kanagawa/A1402/A140202/14007887/) （[中華料理](http://r.tabelog.com/chinese/) / [青葉台駅](http://r.tabelog.com/kanagawa/A1402/A140202/R78/)）<br>
 昼総合点★★★★☆ 4.0

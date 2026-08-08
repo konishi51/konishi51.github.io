@@ -8,7 +8,7 @@ tags: [映画]
 
 毎回修羅場がありそうでテレビの前から逃げ出したくなる、20世紀初頭のイギリスが舞台のお屋敷ドラマ。
 
-[Downton Abbey](http://www.itv.com/downtonabbey/) (邦題：[ダウントン・アビー](http://www.star-ch.jp/downtonabbey/))
+[Downton Abbey](http://www.itv.com/downtonabbey/) (邦題：[ダウントン・アビー](http://www.star-ch.jp/downtonabbey/))<br>
 （邦題には、何かとんでもない副題が付いてたりすることがあるけど無視）
 
 「[ROME](/2012/05/13/fuufude-rome-nihamatta.html)」「[チューダーズ](/2012/07/15/the-tudors-nimohamattemita.html)」と来て、つぎはこれに手をだしてみました。イギリス行ったときに空港のDVD屋でシーズン２までのセットを購入。時代がいきなり現代に近いですが、100年前はやはり別世界です。

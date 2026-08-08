@@ -18,8 +18,8 @@ tags: [映画]
 
 設定だけでなく、誰がどうやって止めたかもほぼ実話のまま。本当にヒーローがいたわけね。
 
-**フェノールの毒性** 下記ページによると、
-[ Occupational Safety and Health Guideline for Phenol ](http://www.osha.gov/SLTC/healthguidelines/phenol/recognition.html)
+**フェノールの毒性** 下記ページによると、<br>
+[ Occupational Safety and Health Guideline for Phenol ](http://www.osha.gov/SLTC/healthguidelines/phenol/recognition.html)<br>
 32才の男性が頭から濃いフェノールをかぶって１０分後に死亡した、とか、1gを経口摂取すると死亡しうる、だとか、中枢神経や肝臓や腎臓に害があるだとか、まぁ色々書いてあります。これを満載した列車が市街地を暴走したってのがヒドイ。
 
 **止まらなさが桁違い** 「スピード」は路線バスが時速88kmを切ると爆発するよう仕掛けられて止まれなくなる話だったのに対し、こっちは、半マイル(1km弱)もの長さの列車が無人でフルスロットルで走り、時速114kmにも達するという設定。実話の方も、47両の貨車が時速82kmとありますね。なので、速度はほぼ同じとしても、バスの長さは10m前後ですから、仮にバス1台と列車1両を同じ重さとすると、50～80倍重いわけです。で、重さ≒止まらなさですからね。

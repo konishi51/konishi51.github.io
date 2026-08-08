@@ -10,9 +10,9 @@ Rhein河観光の目玉は、山の上からの眺めだ。言い切った。
 
 ふと思い立って、Rhein河中域の渓谷を眺めてきた。あと Frankfurt も。今まで行ってなかったのだ。
 
-2泊3日の旅程は以下の通り：
-1日目：自宅 -> Koblenz
-2日目：Koblenz -> St. Goar -> Rüdesheim
+2泊3日の旅程は以下の通り：<br>
+1日目：自宅 -> Koblenz<br>
+2日目：Koblenz -> St. Goar -> Rüdesheim<br>
 3日目：Rüdesheim -> Frankfurt -> 自宅
 
 足は電車と徒歩。 普通は Mainz か Rüdesheim から船で Koblenz 方面へ川下りするらしいんだけど、まだ3月なので川下りの船が営業してないのだ。4月からだそう。

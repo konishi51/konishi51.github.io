@@ -14,7 +14,7 @@ tags: [PC]
 
 ![Bluetooth ドングルのパッケージ](https://res.cloudinary.com/di7y4t4ad/image/upload/article/234/img2-thumb.jpg)
 
-Trust 社（あー、オランダの会社ですな）の製品で、"Bluetooth 2.1 USB adapter"、型番は 15542-2。
+Trust 社（あー、オランダの会社ですな）の製品で、"Bluetooth 2.1 USB adapter"、型番は 15542-2。<br>
 中身はBroadcom 社のハードウェアらしい。
 
 で、これが最終的には Nokia BH-505 とちゃんとつながってくれたんですが、それまでにずいぶん悩んだけど、こうしたら動いた、という話を書きます。

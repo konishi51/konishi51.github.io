@@ -10,7 +10,7 @@ tags: [本]
 
 Why The West Rules - For Now
 
-~~(邦題未定: なぜ、西洋が優っているのか、とりあえず今の所は)~~
+~~(邦題未定: なぜ、西洋が優っているのか、とりあえず今の所は)~~<br>
 (邦題：人類5万年 文明の興亡 － なぜ西洋が世界を支配しているのか)
 
 [Why the West Rules-For Now: The Patterns of History, and What They Reveal About the Future](https://amzn.asia/d/2VN3VVM)

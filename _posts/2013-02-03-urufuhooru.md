@@ -6,7 +6,7 @@ tags: [本,チューダー朝]
 
 [以前](/2012/07/15/the-tudors-nimohamattemita.html)、俺はトマス・クロムウェルみたいな奴だと言ったな。あれは嘘だ。
 
-[Wolf Hall](http://www.harpercollins.co.uk/Titles/82303/wolf-hall-hilary-mantel-9780007509775) Hilary Mantel Fourth Estate Ltd.
+[Wolf Hall](http://www.harpercollins.co.uk/Titles/82303/wolf-hall-hilary-mantel-9780007509775) Hilary Mantel Fourth Estate Ltd.<br>
 (邦題：ウルフ・ホール ( [上](http://www.hayakawa-online.co.jp/product/books/111343.html) ・ [下](http://www.hayakawa-online.co.jp/product/books/111344.html) ) ヒラリー・マンテル 早川書房)
 
 いや、ほんともう、済みませんでした。こんなすごい人に似てるわけないです。
