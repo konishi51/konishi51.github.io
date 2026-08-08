@@ -4,6 +4,7 @@
 
 - Git
 - Python 3 (for migration checks)
+- Node.js (for client-side search checks)
 - Ruby 3.3.11 (from `.ruby-version`)
 - Bundler 2.6.9 (from `Gemfile.lock`)
 

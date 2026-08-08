@@ -13,6 +13,7 @@ required_bundler="$(awk '/^BUNDLED WITH$/{getline; gsub(/^[[:space:]]+/, ""); pr
 
 if command -v git >/dev/null 2>&1; then pass "Git: $(git --version)"; else fail "Git is not on PATH"; fi
 if command -v python3 >/dev/null 2>&1; then pass "Python: $(python3 --version)"; else fail "Python 3 is not on PATH"; fi
+if command -v node >/dev/null 2>&1; then pass "Node.js: $(node --version)"; else fail "Node.js is not on PATH"; fi
 
 if command -v ruby >/dev/null 2>&1; then
   actual_ruby="$(ruby -e 'print RUBY_VERSION')"
