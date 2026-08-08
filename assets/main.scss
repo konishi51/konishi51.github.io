@@ -34,3 +34,81 @@
 .back-to-top {
   font-size: $small-font-size;
 }
+
+.site-search-form {
+  margin-bottom: $spacing-unit;
+}
+
+.site-search-form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.35em;
+}
+
+.site-search-controls {
+  display: flex;
+  gap: 0.5em;
+  max-width: 38rem;
+}
+
+.site-search-controls input {
+  border: 1px solid $grey-color-light;
+  border-radius: 0.2rem;
+  box-sizing: border-box;
+  flex: 1 1 auto;
+  font: inherit;
+  min-width: 0;
+  padding: 0.45em 0.6em;
+}
+
+.site-search-controls button {
+  background: $brand-color;
+  border: 1px solid $brand-color;
+  border-radius: 0.2rem;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  padding: 0.45em 1em;
+}
+
+.search-help,
+.search-status,
+.search-result-meta {
+  color: $grey-color;
+}
+
+.search-status {
+  min-height: 1.5em;
+}
+
+.search-results {
+  margin-left: 0;
+}
+
+.search-result {
+  border-bottom: 1px solid $grey-color-light;
+  list-style: none;
+  margin-bottom: $spacing-unit;
+  padding-bottom: $spacing-unit / 2;
+}
+
+.search-result h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.2em;
+}
+
+.search-result-snippet {
+  margin-top: 0.5em;
+}
+
+.search-result-snippet mark {
+  background: #fff2a8;
+  color: inherit;
+}
+
+@media screen and (max-width: 420px) {
+  .site-search-controls {
+    align-items: stretch;
+    flex-direction: column;
+  }
+}

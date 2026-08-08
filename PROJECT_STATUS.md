@@ -13,7 +13,9 @@ Last updated: 2026-08-08
 
 The latest article on the current `main` snapshot is `2026-08-03-human-github-actions.md`.
 
-The restartable environment has been verified locally with Ruby 3.3.11, Bundler 2.6.9, and Psych/libyaml. The production Jekyll build generated 318 HTML files from 315 posts.
+The restartable environment has been verified locally with Ruby 3.3.11, Bundler 2.6.9, and Psych/libyaml. The production Jekyll build generates 319 HTML files from 315 posts, including the full-text search page.
+
+Intentional line breaks lost during migration have been restored. The site now includes a client-side full-text search over article titles, tags, and bodies. Its static JSON index is loaded only on the search page; whitespace-separated terms use AND matching.
 
 ## Working boundaries
 
@@ -33,8 +35,8 @@ Read `AGENTS.md` before making changes. In particular:
 4. Run `script/test` before handing off changes.
 5. Report changed files, checks run, and anything not verified.
 
-## Next content task
+## Next site task
 
-Restore intentional line breaks lost during migration. The inherited investigation identified 86 articles and 146 paragraphs for direct comparison with the original Asablo pages. Preserve the original prose while restoring lists, schedules, dialogue, tables, and standalone links according to their original structure.
+Consider tag-based browsing separately from full-text search. Keep the existing all-article title list on the home page.
 
 External services used by the project are GitHub Pages, Cloudinary, Supabase (migration records), and the legacy Asablo pages. Connectivity checks must be read-only. Cloudinary credentials are not required for the next task.
