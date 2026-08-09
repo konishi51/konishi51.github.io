@@ -8,7 +8,7 @@
 - Ruby 3.3.11 (from `.ruby-version`)
 - Bundler 2.6.9 (from `Gemfile.lock`)
 
-No GitHub CLI authentication is required for local development. The repository may be fetched anonymously from the single permitted repository, `konishi51/konishi51.github.io`.
+GitHub CLI (`gh`) must not be used for this project, and `gh auth login` or any other GitHub CLI authentication must not be attempted. Do not adopt setup or publishing steps that require it. The repository may be fetched anonymously from the single permitted repository, `konishi51/konishi51.github.io`.
 
 ## First setup
 
@@ -63,7 +63,7 @@ The build and gem directories are ignored. Tests should not alter tracked files.
 
 ## What the checks mean
 
-- `script/doctor` reports local tool availability and versions. It identifies a GitHub CLI binary separately from whether it is on `PATH`; it deliberately does not use CLI authentication.
+- `script/doctor` reports local tool availability and versions. It may identify a GitHub CLI binary separately from whether it is on `PATH`, but project work must not invoke or authenticate that binary.
 - `script/test` runs the two migration checks, builds Jekyll in production mode, checks search and tag filtering, and checks post and generated HTML counts.
 - The GitHub connector available to ChatGPT is separate from GitHub CLI and cannot be diagnosed reliably by a repository script.
 
@@ -71,7 +71,7 @@ The build and gem directories are ignored. Tests should not alter tracked files.
 
 Use only read-only checks unless a separate write step has been explicitly approved.
 
-- GitHub: only `konishi51/konishi51.github.io` may be accessed.
+- GitHub: only `konishi51/konishi51.github.io` may be accessed. Do not view or operate on `konishi51/lack-thereof-rag` or any other repository, even if the ChatGPT GitHub App permits access. Use that App only for explicitly approved operations on this repository.
 - Cloudinary: hosts migrated article images. Credentials are unnecessary for ordinary builds.
 - Supabase: retained migration records; it is not required for a normal site build.
 - Asablo: source for comparison when restoring legacy formatting.

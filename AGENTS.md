@@ -17,6 +17,14 @@ This repository contains the Lack Thereof blog. It may later include a Wiki, str
 - Clearly distinguish facts confirmed from repository files from assumptions or proposals.
 - Keep reports concise unless a detailed explanation is requested.
 
+## Repository and GitHub access
+
+- The only repository that may be viewed or operated on for this project is `konishi51/konishi51.github.io`.
+- Do not view or operate on any other repository, including `konishi51/lack-thereof-rag`, even if a connected GitHub App can access it.
+- Do not use GitHub CLI (`gh`) for any task in this project.
+- Do not run `gh auth login` or otherwise authenticate GitHub CLI.
+- Do not adopt a workflow that requires GitHub CLI. Use the ChatGPT GitHub App for approved GitHub operations, and use ordinary `git` only where the current environment already supports the requested operation without `gh` authentication.
+
 ## Content rules
 
 - New article prose requires review by とうち before publication.
