@@ -1,6 +1,6 @@
 # Lack Thereof project status
 
-Last updated: 2026-08-08
+Last updated: 2026-08-09
 
 ## Current state
 
@@ -24,8 +24,9 @@ Read `AGENTS.md` before making changes. In particular:
 - Preserve existing article text unless an edit is explicitly requested.
 - Keep original articles separate from generated metadata and summaries.
 - Do not commit, push, publish, open a pull request, merge, or change GitHub settings without explicit approval.
-- GitHub access is restricted to `konishi51/konishi51.github.io`.
-- Do not use GitHub CLI authentication while its Organization permission issue remains unresolved.
+- GitHub access is restricted to `konishi51/konishi51.github.io`; do not view or operate on `konishi51/lack-thereof-rag` or any other repository.
+- Do not use GitHub CLI (`gh`) or attempt to authenticate it. GitHub CLI must not be a prerequisite of any project workflow.
+- For approved GitHub operations, use the ChatGPT GitHub App. Its access to another repository does not expand this project's permitted scope.
 
 ## Resume here
 
