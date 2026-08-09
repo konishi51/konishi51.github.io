@@ -64,7 +64,7 @@ The build and gem directories are ignored. Tests should not alter tracked files.
 ## What the checks mean
 
 - `script/doctor` reports local tool availability and versions. It identifies a GitHub CLI binary separately from whether it is on `PATH`; it deliberately does not use CLI authentication.
-- `script/test` runs the two migration checks, builds Jekyll in production mode, and checks post and generated HTML counts.
+- `script/test` runs the two migration checks, builds Jekyll in production mode, checks search and tag filtering, and checks post and generated HTML counts.
 - The GitHub connector available to ChatGPT is separate from GitHub CLI and cannot be diagnosed reliably by a repository script.
 
 ## External services

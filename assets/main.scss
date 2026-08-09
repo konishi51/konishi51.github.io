@@ -17,6 +17,43 @@
   margin-right: 0.75em;
 }
 
+.tag-filter {
+  margin: 0 0 $spacing-unit;
+}
+
+.tag-filter-label {
+  color: $grey-color;
+  display: block;
+  margin-bottom: 0.35em;
+}
+
+.tag-filter-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+}
+
+.tag-filter-options button {
+  background: transparent;
+  border: 1px solid $grey-color-light;
+  border-radius: 0.2rem;
+  color: $brand-color;
+  cursor: pointer;
+  font: inherit;
+  padding: 0.3em 0.65em;
+}
+
+.tag-filter-options button:hover,
+.tag-filter-options button:focus-visible {
+  border-color: $brand-color;
+}
+
+.tag-filter-options button[aria-pressed="true"] {
+  background: $brand-color;
+  border-color: $brand-color;
+  color: #fff;
+}
+
 .post-list > .post-year {
   align-items: baseline;
   border-bottom: 1px solid $grey-color-light;
@@ -110,5 +147,10 @@
   .site-search-controls {
     align-items: stretch;
     flex-direction: column;
+  }
+
+  .tag-filter-options button {
+    padding-left: 0.55em;
+    padding-right: 0.55em;
   }
 }
