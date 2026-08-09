@@ -68,6 +68,12 @@
   margin: 0;
 }
 
+.year-jump a[hidden],
+.post-list > .post-year[hidden],
+.post-list > .post-item[hidden] {
+  display: none;
+}
+
 .back-to-top {
   font-size: $small-font-size;
 }

@@ -82,6 +82,8 @@ assert.equal(Array.from(yearLinks).length, allYears.size);
 const css = fs.readFileSync(path.join(root, "assets", "main.scss"), "utf8");
 assert.match(css, /\.tag-filter-options\s*\{[^}]*flex-wrap:\s*wrap;/su);
 assert.match(css, /@media screen and \(max-width:\s*420px\)/u);
+assert.match(css, /\.year-jump a\[hidden\][\s\S]*display:\s*none;/u);
+assert.match(css, /\.post-list > \.post-year\[hidden\][\s\S]*display:\s*none;/u);
 
 console.log(`PASS  Tag controls: all + ${generatedTags.length} tags from site data`);
 console.log("PASS  Single-tag, multiple-tag, reset, unknown-tag, and URL behavior");
