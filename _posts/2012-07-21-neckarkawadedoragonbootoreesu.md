@@ -1,7 +1,7 @@
 ---
 title: "Neckar川でドラゴンボートレース"
 date: 2012-07-21 00:00:00
-tags: [世界街歩き]
+tags: [世界街歩き,ドイツ]
 ---
 
 [![ゴール付近の力槽](https://res.cloudinary.com/di7y4t4ad/image/upload/article/113/img1-thumb.jpg)](https://res.cloudinary.com/di7y4t4ad/image/upload/article/113/img1-full.jpg)

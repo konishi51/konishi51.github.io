@@ -1,7 +1,7 @@
 ---
 title: "ハイデルベルク初夏2013"
 date: 2013-05-19 00:00:00
-tags: [世界街歩き]
+tags: [世界街歩き,ドイツ]
 ---
 
 [![対岸から見た城](https://res.cloudinary.com/di7y4t4ad/image/upload/article/61/img1-thumb.jpg)](https://res.cloudinary.com/di7y4t4ad/image/upload/article/61/img1-full.jpg)

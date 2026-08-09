@@ -1,7 +1,7 @@
 ---
 title: "2月の寒い日"
 date: 2012-02-06 00:00:00
-tags: [世界街歩き]
+tags: [世界街歩き,ドイツ]
 ---
 
 [![Neckar川沿いの丘](https://res.cloudinary.com/di7y4t4ad/image/upload/article/143/img1-thumb.jpg)](https://res.cloudinary.com/di7y4t4ad/image/upload/article/143/img1-full.jpg)

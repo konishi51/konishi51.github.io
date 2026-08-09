@@ -1,7 +1,7 @@
 ---
 title: "ハイデルベルク 春の目覚め"
 date: 2011-03-21 00:00:00
-tags: [世界街歩き]
+tags: [世界街歩き,ドイツ]
 ---
 
 ![城のテラス](https://res.cloudinary.com/di7y4t4ad/image/upload/article/196/img1-thumb.jpg)

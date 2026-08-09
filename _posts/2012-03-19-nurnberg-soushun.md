@@ -1,7 +1,7 @@
 ---
 title: "Nürnberg 早春"
 date: 2012-03-19 00:00:00
-tags: [世界街歩き]
+tags: [世界街歩き,ドイツ]
 ---
 
 [![Frauenkirche, Nürnberg](https://res.cloudinary.com/di7y4t4ad/image/upload/article/139/img1-thumb.jpg)](https://res.cloudinary.com/di7y4t4ad/image/upload/article/139/img1-full.jpg)

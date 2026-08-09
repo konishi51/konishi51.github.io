@@ -1,7 +1,7 @@
 ---
 title: "Heidelberg の．．．？"
 date: 2010-12-12 00:00:00
-tags: [映画,世界街歩き]
+tags: [映画,世界街歩き,ドイツ]
 ---
 
 ![エイリアン](https://res.cloudinary.com/di7y4t4ad/image/upload/article/226/img1-thumb.jpg)

@@ -1,7 +1,7 @@
 ---
 title: "秋の Heidelberg"
 date: 2011-10-16 00:00:00
-tags: [世界街歩き]
+tags: [世界街歩き,ドイツ]
 ---
 
 ![トラム](https://res.cloudinary.com/di7y4t4ad/image/upload/article/160/img1-thumb.jpg)

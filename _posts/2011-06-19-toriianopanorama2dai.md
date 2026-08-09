@@ -1,7 +1,7 @@
 ---
 title: "トリーアのパノラマ2題"
 date: 2011-06-19 00:00:00
-tags: [世界街歩き]
+tags: [世界街歩き,ドイツ]
 ---
 
 ![遊覧バスからDomを見る](https://res.cloudinary.com/di7y4t4ad/image/upload/article/179/img1-thumb.jpg)

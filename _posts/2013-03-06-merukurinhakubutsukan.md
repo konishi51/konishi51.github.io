@@ -1,7 +1,7 @@
 ---
 title: "メルクリン博物館"
 date: 2013-03-06 00:00:00
-tags: [世界街歩き]
+tags: [世界街歩き,ドイツ]
 ---
 
 [![雪山を行く列車](https://res.cloudinary.com/di7y4t4ad/image/upload/article/70/img1-thumb.jpg)](https://res.cloudinary.com/di7y4t4ad/image/upload/article/70/img1-full.jpg)

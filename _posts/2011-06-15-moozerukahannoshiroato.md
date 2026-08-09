@@ -1,7 +1,7 @@
 ---
 title: "モーゼル河畔の城跡"
 date: 2011-06-15 00:00:00
-tags: [世界街歩き]
+tags: [世界街歩き,ドイツ]
 ---
 
 ![Nicolaus Cusanus](https://res.cloudinary.com/di7y4t4ad/image/upload/article/181/img1-thumb.jpg)

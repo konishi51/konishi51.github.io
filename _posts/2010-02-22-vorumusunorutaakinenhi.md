@@ -1,7 +1,7 @@
 ---
 title: "ヴォルムスのルター記念碑"
 date: 2010-02-22 00:00:00
-tags: [世界街歩き]
+tags: [世界街歩き,ドイツ]
 ---
 
 ![](https://res.cloudinary.com/di7y4t4ad/image/upload/article/291/img1-thumb.jpg)

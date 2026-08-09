@@ -1,7 +1,7 @@
 ---
 title: "ウルム大聖堂に登る"
 date: 2013-03-04 00:00:00
-tags: [世界街歩き]
+tags: [世界街歩き,ドイツ]
 ---
 
 [![ウルム大聖堂南東から](https://res.cloudinary.com/di7y4t4ad/image/upload/article/71/img1-thumb.jpg)](https://res.cloudinary.com/di7y4t4ad/image/upload/article/71/img1-full.jpg)

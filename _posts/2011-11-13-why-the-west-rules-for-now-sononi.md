@@ -1,7 +1,7 @@
 ---
 title: "Why The West Rules - For Now (その二)"
 date: 2011-11-13 00:00:00
-tags: [本]
+tags: [本,歴史]
 ---
 
 人類が進歩するペースは常に加速する。

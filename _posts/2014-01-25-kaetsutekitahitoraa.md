@@ -1,7 +1,7 @@
 ---
 title: "帰ってきたヒトラー"
 date: 2014-01-25 00:00:00
-tags: [本]
+tags: [本,ドイツ,言語]
 ---
 
 ![帰ってきたヒトラー 上・下](https://res.cloudinary.com/di7y4t4ad/image/upload/article/44/img1-thumb.jpg)

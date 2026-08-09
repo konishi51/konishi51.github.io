@@ -1,7 +1,7 @@
 ---
 title: "The Tudors にもはまってみた"
 date: 2012-07-15 00:00:00
-tags: [映画,チューダー朝]
+tags: [映画,チューダー朝,歴史]
 ---
 
 ![The Tudors - The Complete Series](https://res.cloudinary.com/di7y4t4ad/image/upload/article/114/img1-thumb.jpg)

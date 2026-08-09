@@ -1,7 +1,7 @@
 ---
 title: "晩秋の Heidelberg 2011"
 date: 2011-11-20 00:00:00
-tags: [世界街歩き]
+tags: [世界街歩き,ドイツ]
 ---
 
 ![Neckar 河畔の芝地](https://res.cloudinary.com/di7y4t4ad/image/upload/article/153/img1-thumb.jpg)

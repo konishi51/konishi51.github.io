@@ -1,7 +1,7 @@
 ---
 title: "ハイデルベルクのケーブルカー、下区間"
 date: 2010-05-12 00:00:00
-tags: [世界街歩き]
+tags: [世界街歩き,ドイツ]
 ---
 
 ![Untere Bergbahn, Heidelberg](https://res.cloudinary.com/di7y4t4ad/image/upload/article/273/img1-thumb.jpg)

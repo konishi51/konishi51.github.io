@@ -1,7 +1,7 @@
 ---
 title: "Heidelberg 城のかがり火と花火"
 date: 2011-06-06 00:00:00
-tags: [世界街歩き]
+tags: [世界街歩き,ドイツ]
 ---
 
 ![Heidelberg 夜10:00](https://res.cloudinary.com/di7y4t4ad/image/upload/article/182/img1-thumb.jpg)

@@ -1,7 +1,7 @@
 ---
 title: "１２月のハイデルベルク城"
 date: 2012-12-16 00:00:00
-tags: [世界街歩き]
+tags: [世界街歩き,ドイツ]
 ---
 
 [![城の庭から見るハイデルベルク](https://res.cloudinary.com/di7y4t4ad/image/upload/article/89/img1-thumb.jpg)](https://res.cloudinary.com/di7y4t4ad/image/upload/article/89/img1-full.jpg)

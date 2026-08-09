@@ -1,7 +1,7 @@
 ---
 title: "Karlsruhe のボードゲーム店"
 date: 2011-07-19 00:00:00
-tags: [ボードゲーム]
+tags: [ボードゲーム,ドイツ]
 ---
 
 ![Kalrsruhe のピラミッド](https://res.cloudinary.com/di7y4t4ad/image/upload/article/174/img1-thumb.jpg)

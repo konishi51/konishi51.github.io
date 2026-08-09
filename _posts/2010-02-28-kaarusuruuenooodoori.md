@@ -1,7 +1,7 @@
 ---
 title: "カールスルーエの大通り"
 date: 2010-02-28 00:00:00
-tags: []
+tags: [ドイツ]
 ---
 
 ![](https://res.cloudinary.com/di7y4t4ad/image/upload/article/288/img1-thumb.jpg)

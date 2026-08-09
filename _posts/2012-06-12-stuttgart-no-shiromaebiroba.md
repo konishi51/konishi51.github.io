@@ -1,7 +1,7 @@
 ---
 title: "Stuttgart の 城前広場"
 date: 2012-06-12 00:00:00
-tags: [世界街歩き]
+tags: [世界街歩き,ドイツ]
 ---
 
 ![新城](https://res.cloudinary.com/di7y4t4ad/image/upload/article/119/img1-thumb.jpg)

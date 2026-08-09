@@ -1,7 +1,7 @@
 ---
 title: "ボーデン湖でボーっとしてきた"
 date: 2011-04-27 00:00:00
-tags: [世界街歩き]
+tags: [世界街歩き,ドイツ]
 ---
 
 [![フェリーから見た Friedrichshafen](https://res.cloudinary.com/di7y4t4ad/image/upload/article/191/img1-thumb.jpg)](https://res.cloudinary.com/di7y4t4ad/image/upload/article/191/img1-full.jpg)

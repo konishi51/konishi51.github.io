@@ -1,7 +1,7 @@
 ---
 title: "Heidelberg 小春日和"
 date: 2011-01-18 00:00:00
-tags: [世界街歩き]
+tags: [世界街歩き,ドイツ]
 ---
 
 [![神々しい光に包まれるハイデルベルク城](https://res.cloudinary.com/di7y4t4ad/image/upload/article/216/img1-thumb.jpg)](https://res.cloudinary.com/di7y4t4ad/image/upload/article/216/img1-full.jpg)

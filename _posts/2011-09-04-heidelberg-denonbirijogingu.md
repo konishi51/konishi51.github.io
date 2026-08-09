@@ -1,7 +1,7 @@
 ---
 title: "Heidelberg でのんびりジョギング"
 date: 2011-09-04 00:00:00
-tags: [世界街歩き]
+tags: [世界街歩き,ドイツ]
 ---
 
 ![哲学の道に続く坂道](https://res.cloudinary.com/di7y4t4ad/image/upload/article/166/img1-thumb.jpg)

@@ -1,7 +1,7 @@
 ---
 title: "ハイデルベルクの秋祭り"
 date: 2010-09-30 00:00:00
-tags: [世界街歩き]
+tags: [世界街歩き,ドイツ]
 ---
 
 ![ハイデルベルクの秋祭り](https://res.cloudinary.com/di7y4t4ad/image/upload/article/240/img1-thumb.jpg)

@@ -1,7 +1,7 @@
 ---
 title: "ハイデルベルクの精霊教会"
 date: 2010-03-09 00:00:00
-tags: [世界街歩き]
+tags: [世界街歩き,ドイツ]
 ---
 
 ![](https://res.cloudinary.com/di7y4t4ad/image/upload/article/285/img1-thumb.jpg)

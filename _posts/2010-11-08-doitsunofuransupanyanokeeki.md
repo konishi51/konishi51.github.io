@@ -1,7 +1,7 @@
 ---
 title: "ドイツのフランスパン屋のケーキ"
 date: 2010-11-08 00:00:00
-tags: [世界街歩き]
+tags: [世界街歩き,ドイツ]
 ---
 
 ![ドイツのフランスパン屋のケーキ](https://res.cloudinary.com/di7y4t4ad/image/upload/article/233/img1-thumb.jpg)

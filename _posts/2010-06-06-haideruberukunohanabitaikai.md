@@ -1,7 +1,7 @@
 ---
 title: "ハイデルベルクの花火大会"
 date: 2010-06-06 00:00:00
-tags: [世界街歩き]
+tags: [世界街歩き,ドイツ]
 ---
 
 ![夜のハイデルベルク城](https://res.cloudinary.com/di7y4t4ad/image/upload/article/267/img1-thumb.jpg)
