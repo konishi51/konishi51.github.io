@@ -20,30 +20,42 @@ layout: default
       </div>
     </form>
 
+    <nav class="tag-filter" aria-label="タグで記事を絞り込む" data-tag-filter>
+      <span class="tag-filter-label">タグ：</span>
+      <div class="tag-filter-options">
+        <button type="button" data-tag="" aria-pressed="true" aria-controls="post-list">すべて</button>
+        {%- assign sorted_tags = site.tags | sort -%}
+        {%- for tag in sorted_tags -%}
+          {%- assign tag_name = tag[0] -%}
+        <button type="button" data-tag="{{ tag_name | escape }}" aria-pressed="false" aria-controls="post-list">{{ tag_name | escape }}</button>
+        {%- endfor -%}
+      </div>
+    </nav>
+
     <nav class="year-jump" aria-label="年別の記事一覧">
       <span class="year-jump-label">年別：</span>
       {%- assign previous_year = "" -%}
       {%- for post in site.posts -%}
         {%- assign post_year = post.date | date: "%Y" -%}
         {%- if post_year != previous_year -%}
-          <a href="#year-{{ post_year }}">{{ post_year }}</a>
+          <a href="#year-{{ post_year }}" data-year="{{ post_year }}">{{ post_year }}</a>
           {%- assign previous_year = post_year -%}
         {%- endif -%}
       {%- endfor -%}
     </nav>
 
-    <ul class="post-list">
+    <ul class="post-list" id="post-list">
       {%- assign previous_year = "" -%}
       {%- for post in site.posts -%}
         {%- assign post_year = post.date | date: "%Y" -%}
         {%- if post_year != previous_year -%}
-        <li class="post-year" id="year-{{ post_year }}">
+        <li class="post-year" id="year-{{ post_year }}" data-year="{{ post_year }}">
           <h3>{{ post_year }}</h3>
           <a class="back-to-top" href="#top">上へ戻る</a>
         </li>
           {%- assign previous_year = post_year -%}
         {%- endif -%}
-      <li>
+      <li class="post-item" data-year="{{ post_year }}" data-tags="{{ post.tags | jsonify | escape }}">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
@@ -62,3 +74,5 @@ layout: default
   {%- endif -%}
 
 </div>
+
+<script src="{{ "/assets/tag-filter.js" | relative_url }}" defer></script>
