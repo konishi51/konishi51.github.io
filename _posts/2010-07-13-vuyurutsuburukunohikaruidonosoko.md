@@ -1,7 +1,7 @@
 ---
 title: "ヴュルツブルクの光る井戸の底"
 date: 2010-07-13 00:00:00
-tags: [世界街歩き]
+tags: [世界街歩き,ドイツ]
 ---
 
 ![マリエンベルク要塞の井戸](https://res.cloudinary.com/di7y4t4ad/image/upload/article/259/img1-thumb.jpg)

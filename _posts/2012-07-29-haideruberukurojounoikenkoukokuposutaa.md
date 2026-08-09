@@ -1,7 +1,7 @@
 ---
 title: "ハイデルベルク路上の意見広告ポスター"
 date: 2012-07-29 00:00:00
-tags: [世界街歩き]
+tags: [世界街歩き,ドイツ]
 ---
 
 ![Alone?](https://res.cloudinary.com/di7y4t4ad/image/upload/article/109/img1-thumb.jpg)

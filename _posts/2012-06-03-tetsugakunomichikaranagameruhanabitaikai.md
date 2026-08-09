@@ -1,7 +1,7 @@
 ---
 title: "哲学の道から眺める花火大会"
 date: 2012-06-03 00:00:00
-tags: [世界街歩き]
+tags: [世界街歩き,ドイツ]
 ---
 
 [![かがり火で赤く光るハイデルベルク城](https://res.cloudinary.com/di7y4t4ad/image/upload/article/121/img1-thumb.jpg)](https://res.cloudinary.com/di7y4t4ad/image/upload/article/121/img1-full.jpg)

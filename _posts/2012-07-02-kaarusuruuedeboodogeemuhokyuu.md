@@ -1,7 +1,7 @@
 ---
 title: "カールスルーエでボードゲーム補給"
 date: 2012-07-02 00:00:00
-tags: [ボードゲーム,世界街歩き]
+tags: [ボードゲーム,世界街歩き,ドイツ]
 ---
 
 ![St. Stephanskirche](https://res.cloudinary.com/di7y4t4ad/image/upload/article/116/img1-thumb.jpg)

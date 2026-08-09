@@ -1,7 +1,7 @@
 ---
 title: "ドイツの鳩時計"
 date: 2013-06-23 00:00:00
-tags: [世界街歩き]
+tags: [世界街歩き,ドイツ]
 ---
 
 ![ドイツの鳩時計（カッコウ時計）](https://res.cloudinary.com/di7y4t4ad/image/upload/article/57/img1-thumb.jpg)

@@ -1,7 +1,7 @@
 ---
 title: "ボーっと走った道"
 date: 2011-04-28 00:00:00
-tags: [世界街歩き]
+tags: [世界街歩き,ドイツ]
 ---
 
 ![フェリーの上](https://res.cloudinary.com/di7y4t4ad/image/upload/article/190/img1-thumb.jpg)

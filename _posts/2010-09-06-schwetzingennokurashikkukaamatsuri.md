@@ -1,7 +1,7 @@
 ---
 title: "Schwetzingenのクラシックカー祭"
 date: 2010-09-06 00:00:00
-tags: [世界街歩き]
+tags: [世界街歩き,ドイツ]
 ---
 
 [![](https://res.cloudinary.com/di7y4t4ad/image/upload/article/245/img1-thumb.jpg)](https://res.cloudinary.com/di7y4t4ad/image/upload/article/245/img1-full.jpg)

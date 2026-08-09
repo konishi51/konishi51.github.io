@@ -1,7 +1,7 @@
 ---
 title: "シュテーデル美術館のオーディオガイド"
 date: 2012-05-29 00:00:00
-tags: [世界街歩き]
+tags: [世界街歩き,ドイツ]
 ---
 
 ![シュテーデル美術館正面](https://res.cloudinary.com/di7y4t4ad/image/upload/article/122/img1-thumb.jpg)

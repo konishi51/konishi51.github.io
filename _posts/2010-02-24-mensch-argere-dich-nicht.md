@@ -1,7 +1,7 @@
 ---
 title: "Mensch ärgere dich nicht"
 date: 2010-02-24 00:00:00
-tags: []
+tags: [ドイツ]
 ---
 
 新聞記事で見かけた、ドイツの古いゲーム。「みんな、怒っちゃだめだよ」みたいな意味か。適当に探して、フラッシュ版見つけた。 <http://www.x-oo.com/shockwave/freegames/flashludo/> これはボードの見た目がちょっと正統派と違うけど、ルールはたぶん一緒。

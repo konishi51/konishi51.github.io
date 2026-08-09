@@ -1,7 +1,7 @@
 ---
 title: "波打つドイツの大地"
 date: 2010-07-17 00:00:00
-tags: [世界街歩き]
+tags: [世界街歩き,ドイツ]
 ---
 
 ![どこでもないところ （L858 沿い）](https://res.cloudinary.com/di7y4t4ad/image/upload/article/258/img1-thumb.jpg)

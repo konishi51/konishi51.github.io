@@ -1,7 +1,7 @@
 ---
 title: "Heidelberg 初夏"
 date: 2011-06-04 00:00:00
-tags: [世界街歩き]
+tags: [世界街歩き,ドイツ]
 ---
 
 [![Neckar川を行く遊覧船](https://res.cloudinary.com/di7y4t4ad/image/upload/article/184/img1-thumb.jpg)](https://res.cloudinary.com/di7y4t4ad/image/upload/article/184/img1-full.jpg)

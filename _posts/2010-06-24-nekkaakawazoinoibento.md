@@ -1,7 +1,7 @@
 ---
 title: "ネッカー川沿いのイベント"
 date: 2010-06-24 00:00:00
-tags: [世界街歩き]
+tags: [世界街歩き,ドイツ]
 ---
 
 ![Lebendiger Neckar](https://res.cloudinary.com/di7y4t4ad/image/upload/article/263/img1-thumb.jpg)

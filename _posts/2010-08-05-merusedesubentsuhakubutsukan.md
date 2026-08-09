@@ -1,7 +1,7 @@
 ---
 title: "メルセデス・ベンツ博物館"
 date: 2010-08-05 00:00:00
-tags: [世界街歩き]
+tags: [世界街歩き,ドイツ]
 ---
 
 ![メルセデスベンツ博物館：通路のデザイン](https://res.cloudinary.com/di7y4t4ad/image/upload/article/252/img1-thumb.jpg)

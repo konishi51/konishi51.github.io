@@ -1,7 +1,7 @@
 ---
 title: "Neckar 川沿いの緑地"
 date: 2011-03-14 00:00:00
-tags: [世界街歩き]
+tags: [世界街歩き,ドイツ]
 ---
 
 [![木片で遊ぶ人々](https://res.cloudinary.com/di7y4t4ad/image/upload/article/199/img1-thumb.jpg)](https://res.cloudinary.com/di7y4t4ad/image/upload/article/199/img1-full.jpg)

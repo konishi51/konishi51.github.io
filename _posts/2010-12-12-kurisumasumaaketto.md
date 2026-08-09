@@ -1,7 +1,7 @@
 ---
 title: "クリスマスマーケット"
 date: 2010-12-12 00:00:00
-tags: [お出かけ,世界街歩き]
+tags: [お出かけ,世界街歩き,ドイツ]
 ---
 
 ![Heidelbergのクリスマスマーケット](https://res.cloudinary.com/di7y4t4ad/image/upload/article/227/img1-thumb.jpg)

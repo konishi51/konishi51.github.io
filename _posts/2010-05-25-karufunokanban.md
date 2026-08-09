@@ -1,7 +1,7 @@
 ---
 title: "カルフの看板"
 date: 2010-05-25 00:00:00
-tags: [世界街歩き]
+tags: [世界街歩き,ドイツ]
 ---
 
 ![カルフで見かけた看板、馬](https://res.cloudinary.com/di7y4t4ad/image/upload/article/270/img1-thumb.jpg)

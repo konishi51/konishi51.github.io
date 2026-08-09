@@ -1,7 +1,7 @@
 ---
 title: "The Measure of Civilization"
 date: 2013-04-28 00:00:00
-tags: [本]
+tags: [本,歴史]
 ---
 
 手品の種は聞くと簡単そうに聞こえるが、実際やるには地道な苦労が必要だ。

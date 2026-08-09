@@ -1,7 +1,7 @@
 ---
 title: "カールスルーエのボードゲーム店2015夏"
 date: 2015-08-11 00:00:00
-tags: [ボードゲーム,娘と一緒に]
+tags: [ボードゲーム,娘と一緒に,ドイツ]
 ---
 
 ![Spiele-Pyramide](https://res.cloudinary.com/di7y4t4ad/image/upload/article/11/img1-thumb.jpg)

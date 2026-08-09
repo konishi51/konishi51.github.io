@@ -1,7 +1,7 @@
 ---
 title: "マリエンベルク要塞の中の教会"
 date: 2010-07-24 00:00:00
-tags: [世界街歩き]
+tags: [世界街歩き,ドイツ]
 ---
 
 ![マリエンベルク要塞の塔と教会](https://res.cloudinary.com/di7y4t4ad/image/upload/article/256/img1-thumb.jpg)
