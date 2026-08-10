@@ -2,7 +2,7 @@ name: Upload article image to Cloudinary
 
 on:
   pull_request:
-    types: [opened, reopened, synchronize]
+    types: [opened, closed, reopened, synchronize]
     paths:
       - "cloudinary-upload/**"
 
@@ -12,6 +12,7 @@ permissions:
 jobs:
   upload:
     if: >-
+      github.event.action != 'closed' &&
       github.event.pull_request.base.ref == 'main' &&
       github.event.pull_request.head.repo.full_name == github.repository &&
       startsWith(github.head_ref, 'agent/cloudinary-upload-')
@@ -54,3 +55,48 @@ jobs:
           path: ${{ runner.temp }}/cloudinary-upload-result.json
           if-no-files-found: error
           retention-days: 1
+
+  cleanup:
+    if: >-
+      github.event.action == 'closed' &&
+      github.event.pull_request.base.ref == 'main' &&
+      github.event.pull_request.head.repo.full_name == github.repository &&
+      startsWith(github.head_ref, 'agent/cloudinary-upload-')
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete temporary upload branch
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          HEAD_REF: ${{ github.head_ref }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          python3 - <<'PY'
+          import os
+          from urllib.error import HTTPError
+          from urllib.parse import quote
+          from urllib.request import Request, urlopen
+
+          head_ref = os.environ["HEAD_REF"]
+          if not head_ref.startswith("agent/cloudinary-upload-"):
+              raise SystemExit("Refusing to delete an unexpected branch")
+
+          encoded_ref = quote(f"heads/{head_ref}", safe="")
+          request = Request(
+              f"https://api.github.com/repos/{os.environ['REPOSITORY']}/git/refs/{encoded_ref}",
+              headers={
+                  "Accept": "application/vnd.github+json",
+                  "Authorization": f"Bearer {os.environ['GITHUB_TOKEN']}",
+                  "X-GitHub-Api-Version": "2022-11-28",
+              },
+              method="DELETE",
+          )
+          try:
+              with urlopen(request, timeout=30):
+                  pass
+          except HTTPError as exc:
+              if exc.code != 404:
+                  raise
+          print(f"Deleted temporary branch {head_ref}")
+          PY
