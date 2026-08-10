@@ -23,8 +23,8 @@ workflow input, or chat message.
    `cloudinary-upload-result` artifact.
 4. Read `cloudinary-upload-result.json` from the artifact and use its
    `secure_url` in the article.
-5. Close the temporary pull request without merging and delete the temporary
-   branch. The image must never be added to `main`.
+5. Close the temporary pull request without merging. Its cleanup job deletes
+   the temporary branch automatically. The image must never be added to `main`.
 
 The workflow runs only for same-repository branches with the designated branch
 prefix. It checks out the uploader from the PR base commit, so the incoming
