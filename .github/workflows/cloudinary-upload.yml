@@ -1,0 +1,56 @@
+name: Upload article image to Cloudinary
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+    paths:
+      - "cloudinary-upload/**"
+
+permissions:
+  contents: read
+
+jobs:
+  upload:
+    if: >-
+      github.event.pull_request.base.ref == 'main' &&
+      github.event.pull_request.head.repo.full_name == github.repository &&
+      startsWith(github.head_ref, 'agent/cloudinary-upload-')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out trusted uploader
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          path: trusted
+
+      - name: Check out incoming image
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          path: incoming
+          sparse-checkout: cloudinary-upload
+
+      - name: Verify Cloudinary secret
+        env:
+          CLOUDINARY_URL: ${{ secrets.CLOUDINARY_URL }}
+        run: |
+          if [ -z "$CLOUDINARY_URL" ]; then
+            echo "CLOUDINARY_URL repository secret is not configured." >&2
+            exit 1
+          fi
+
+      - name: Upload image
+        env:
+          CLOUDINARY_URL: ${{ secrets.CLOUDINARY_URL }}
+        run: >-
+          python3 trusted/scripts/upload-cloudinary.py
+          incoming/cloudinary-upload
+          --output "$RUNNER_TEMP/cloudinary-upload-result.json"
+
+      - name: Save upload result
+        uses: actions/upload-artifact@v4
+        with:
+          name: cloudinary-upload-result
+          path: ${{ runner.temp }}/cloudinary-upload-result.json
+          if-no-files-found: error
+          retention-days: 1

@@ -5,6 +5,7 @@ cd "$(dirname "$0")/.."
 
 python3 scripts/check-collapsed-lists.py
 python3 scripts/check-collapsed-links.py
+python3 scripts/upload-cloudinary.py --self-test
 
 if ! command -v bundle >/dev/null 2>&1; then
   echo "ERROR Bundler is unavailable. Run script/bootstrap first." >&2
