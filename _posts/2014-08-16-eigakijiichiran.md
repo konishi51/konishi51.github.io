@@ -11,6 +11,7 @@ tags: [映画]
 - [ The Second Best Exotic Marigold Hotel ](/2015/08/11/the-second-best-exotic-marigold-hotel.html)
 - [ タランティーノっぽいキングズマン ](/2015/04/20/taranteiinoppoikinguzuman.html)
 - [ イミテーション・ゲームでうれし泣き ](/2015/03/13/imiteeshongeemudeureshinaki.html)
+
 ### 2014年
 - [エヴァの告白](/2014/11/30/evanokokuhaku.html)
 - [Wolf HallがTVドラマに](/2014/11/16/urufuhooru-wolf-hall-gatvdoramani.html)
@@ -25,6 +26,7 @@ tags: [映画]
 - [ハンナ・アーレント](/2014/03/30/hannaaarento.html)
 - [Non-Stop](/2014/03/17/non-stop-furaitogeemu.html)
 - [スカイフォールとスタートレック](/2014/01/26/sukaifoorutosutaatorekku.html)
+
 ### 2013年
 - [パシフィック・リムのメインテーマ](/2013/08/10/pashifikkurimunomeinteema.html)
 - [パシフィック・リム](/2013/07/27/pashifikkurimu.html)
@@ -39,6 +41,7 @@ tags: [映画]
 - [キングとランダ](/2013/01/27/kingutoranda.html)
 - [ジャンゴ 繋がれざる者](/2013/01/27/jango-tsunagarezarumono.html)
 - [人生の特等席：アンチ・マネーボール](/2013/01/13/jinseinotokutousekianchimaneebooru.html)
+
 ### 2012年
 - [テッドとドラえもん](/2012/12/23/teddotodoraemon.html)
 - [ホビット 3D HFR](/2012/12/17/hobitto-3d-hfr.html)
@@ -63,6 +66,7 @@ tags: [映画]
 - [Intouchables](/2012/03/11/intouchables.html)
 - [Safe House](/2012/03/04/safe-house.html)
 - [ラブ・アゲイン](/2012/01/08/rabuagein.html)
+
 ### 2011年
 - [ハワード・スターク](/2011/12/28/hawaadosutaaku.html)
 - [フェア・ゲーム](/2011/11/06/feageemu.html)
@@ -84,6 +88,7 @@ tags: [映画]
 - [ブラック・スワン](/2011/01/24/burakkusuwan.html)
 - [武士の家計簿:経済映画三本立て(3)](/2011/01/16/bushinokakeibokeizaieigasanbontate3.html)
 - [ウォール・ストリート:経済映画三本立て(2)](/2011/01/12/uoorusutoriitokeizaieigasanbontate2.html)
+
 ### 2010年
 - [Heidelberg の．．．？](/2010/12/12/heidelberg-no.html)
 - [耳のないうさぎ](/2010/10/02/miminonaiusagi.html)
