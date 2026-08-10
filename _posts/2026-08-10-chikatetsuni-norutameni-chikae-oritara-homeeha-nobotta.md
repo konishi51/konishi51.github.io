@@ -11,7 +11,7 @@ tags: [お出かけ]
 
 Tデッキからオーバル広場へ出た。
 
-![《ルーツ》。文字のような線でできた、大きな人。](/assets/img/2026-08-10-roots.jpg)
+![《ルーツ》。文字のような線でできた、大きな人。](https://res.cloudinary.com/di7y4t4ad/image/upload/v1786342966/article/2026-08-10-toranomon-hills/roots.jpg)
 
 > 《ルーツ》。文字のような線でできた、大きな人。
 
