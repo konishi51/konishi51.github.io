@@ -45,3 +45,10 @@ External services used by the project are GitHub Pages, Cloudinary, Supabase (mi
 New article images are uploaded to Cloudinary through the repository workflow
 described in `docs/IMAGE_UPLOADS.md`. The `CLOUDINARY_URL` Actions secret is
 used only by that workflow and must not be copied into repository files or chat.
+The established handoff procedure is: place exactly one received image on a
+temporary `agent/cloudinary-upload-*` branch, open an upload PR, obtain the
+Cloudinary URL from the one-day workflow artifact, verify SHA-256 and byte counts
+across the received file, staged file, and Cloudinary delivery, then close the
+upload PR without merging. The cleanup job deletes the temporary branch. Only
+the verified Cloudinary URL belongs in the article; the image must not remain on
+`main`. Matching dimensions alone are not an integrity check.
