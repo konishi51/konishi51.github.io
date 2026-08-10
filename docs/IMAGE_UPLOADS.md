@@ -21,11 +21,22 @@ workflow input, or chat message.
 3. Open a pull request to `main`. The `Upload article image to Cloudinary`
    workflow uploads the image and produces the one-day
    `cloudinary-upload-result` artifact.
-4. Read `cloudinary-upload-result.json` from the artifact and use its
-   `secure_url` in the article.
-5. Close the temporary pull request without merging. Its cleanup job deletes
+4. Read `cloudinary-upload-result.json` from the artifact. Before using its
+   `secure_url`, compare the staged image with the received original using the
+   byte count and SHA-256 digest. A matching filename or dimensions is not
+   sufficient: binary transfer through a tool can be truncated while retaining
+   valid image dimensions.
+5. Download the image from `secure_url` and compare its byte count and SHA-256
+   digest with the received original. Use the URL in the article only after all
+   three copies--received, staged, and Cloudinary-delivered--match.
+6. Close the temporary pull request without merging. Its cleanup job deletes
    the temporary branch automatically. The image must never be added to `main`.
 
 The workflow runs only for same-repository branches with the designated branch
 prefix. It checks out the uploader from the PR base commit, so the incoming
 branch supplies the image but not the code that receives the secret.
+
+If any size or digest differs, stop and identify which transfer changed the
+file. Do not update the article or merge the upload pull request. The upload can
+be rerun from a known-complete Git blob when one already exists, but the final
+Cloudinary delivery must still be checked against the original.
