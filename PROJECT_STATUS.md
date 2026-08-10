@@ -41,3 +41,7 @@ Read `AGENTS.md` before making changes. In particular:
 Consider tag-based browsing separately from full-text search. Keep the existing all-article title list on the home page.
 
 External services used by the project are GitHub Pages, Cloudinary, Supabase (migration records), and the legacy Asablo pages. Connectivity checks must be read-only. Cloudinary credentials are not required for the next task.
+
+New article images are uploaded to Cloudinary through the repository workflow
+described in `docs/IMAGE_UPLOADS.md`. The `CLOUDINARY_URL` Actions secret is
+used only by that workflow and must not be copied into repository files or chat.
