@@ -1,7 +1,7 @@
 ---
 title: "Jacked - GTAの夏"
 date: 2012-05-17 00:00:00
-tags: [本]
+tags: [本,Computing]
 ---
 
 あっという間に歴史になってしまったんだね。
