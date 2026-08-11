@@ -1,7 +1,7 @@
 ---
 title: "Google map でヒルフィギュア"
 date: 2012-01-28 00:00:00
-tags: [PC,世界街歩き]
+tags: [Computing,世界街歩き]
 ---
 
 より大きな地図で [The hill figures](http://maps.google.co.jp/maps/ms?msa=0&msid=210931261515773653163.0004a3b2e2955124b94b8&hl=ja&brcurrent=3,0x0:0x0,0&ie=UTF8&t=h&ll=51.425186,-1.929785&spn=0.000585,0.00114&z=19&source=embed) を表示

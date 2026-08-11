@@ -1,7 +1,7 @@
 ---
 title: "Lideo買いました"
 date: 2012-12-23 00:00:00
-tags: [本,PC]
+tags: [本,Computing]
 ---
 
 [![Lideo と iPad 2](https://res.cloudinary.com/di7y4t4ad/image/upload/article/86/img1-thumb.jpg)](https://res.cloudinary.com/di7y4t4ad/image/upload/article/86/img1-full.jpg)

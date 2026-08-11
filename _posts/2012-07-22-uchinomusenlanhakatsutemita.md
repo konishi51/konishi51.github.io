@@ -1,7 +1,7 @@
 ---
 title: "うちの無線LAN測ってみた"
 date: 2012-07-22 00:00:00
-tags: [PC]
+tags: [Computing]
 ---
 
 [![無線LAN強度マップ](https://res.cloudinary.com/di7y4t4ad/image/upload/article/112/img1-thumb.jpg)](https://res.cloudinary.com/di7y4t4ad/image/upload/article/112/img1-full.jpg)

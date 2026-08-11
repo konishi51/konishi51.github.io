@@ -1,7 +1,7 @@
 ---
 title: "ドライブナビアプリに音声入力"
 date: 2014-04-30 00:00:00
-tags: [お出かけ,娘と一緒に,PC]
+tags: [お出かけ,娘と一緒に,Computing]
 ---
 
 ![重慶飯店　第二売店](https://res.cloudinary.com/di7y4t4ad/image/upload/article/39/img1-thumb.jpg)

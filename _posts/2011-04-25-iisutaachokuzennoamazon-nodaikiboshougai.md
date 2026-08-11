@@ -1,7 +1,7 @@
 ---
 title: "イースター直前のAmazon の大規模障害"
 date: 2011-04-25 00:00:00
-tags: [PC]
+tags: [Computing]
 ---
 
 Amazon Web Services のクラウドサービスが4月21日に障害を起こし、4日経った今も完全復旧していない。
