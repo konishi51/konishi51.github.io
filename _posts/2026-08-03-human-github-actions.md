@@ -2,6 +2,7 @@
 title: "人力GitHub Actions"
 date: 2026-08-03 00:00:00
 author: touchi-and-chappy
+tags: [Computing]
 ---
 
 いまはAIエージェントが熱いらしい。
