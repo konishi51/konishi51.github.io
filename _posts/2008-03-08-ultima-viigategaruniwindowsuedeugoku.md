@@ -1,7 +1,7 @@
 ---
 title: "Ultima VIIが手軽にWindows上で動く"
 date: 2008-03-08 00:00:00
-tags: [PC]
+tags: [Computing]
 ---
 
 昔はまったUltimaシリーズをふと思い出して、検索してみたら、なんと今は有志の努力でUltima VIIがWindows上で動かせる実行環境が無償ソフトとして整っているのが分かった。[Exult](http://exult.sourceforge.net/)と言って、LinuxやPSPの上でも動くらしい。

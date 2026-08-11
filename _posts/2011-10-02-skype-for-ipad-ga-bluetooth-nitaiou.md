@@ -1,7 +1,7 @@
 ---
 title: "Skype for iPad が Bluetooth に対応！"
 date: 2011-10-02 00:00:00
-tags: [PC]
+tags: [Computing]
 ---
 
 とうとう iPad の Skype が Bluetooth ヘッドセットを認識するようになった。

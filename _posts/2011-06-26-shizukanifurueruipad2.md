@@ -1,7 +1,7 @@
 ---
 title: "静かに震えるiPad2"
 date: 2011-06-26 00:00:00
-tags: [PC]
+tags: [Computing]
 ---
 
 ![斜め置き](https://res.cloudinary.com/di7y4t4ad/image/upload/article/176/img1-thumb.jpg)

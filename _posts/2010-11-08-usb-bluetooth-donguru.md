@@ -1,7 +1,7 @@
 ---
 title: "USB Bluetooth ドングル"
 date: 2010-11-08 00:00:00
-tags: [PC]
+tags: [Computing]
 ---
 
 ![Bluetooth ドングル](https://res.cloudinary.com/di7y4t4ad/image/upload/article/234/img1-thumb.jpg)

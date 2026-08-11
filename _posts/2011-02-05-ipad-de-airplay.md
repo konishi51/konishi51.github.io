@@ -1,7 +1,7 @@
 ---
 title: "iPad で AirPlay"
 date: 2011-02-05 00:00:00
-tags: [PC]
+tags: [Computing]
 ---
 
 [ Apple TV  ](http://www.amazon.co.jp/gp/product/B004BR2CL8/)を、Amazon のカートに放り込んでから、しばらく放っておいてあった。

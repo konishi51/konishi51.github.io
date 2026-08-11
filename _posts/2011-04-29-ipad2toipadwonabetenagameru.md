@@ -1,7 +1,7 @@
 ---
 title: "iPad2とiPadを並べて眺める"
 date: 2011-04-29 00:00:00
-tags: [PC]
+tags: [Computing]
 ---
 
 iPad2買いました。ドイツのApple Storeで。

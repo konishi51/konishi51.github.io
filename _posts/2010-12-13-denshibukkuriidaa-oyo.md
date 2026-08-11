@@ -1,7 +1,7 @@
 ---
 title: "電子ブックリーダー OYO"
 date: 2010-12-13 00:00:00
-tags: [本,PC]
+tags: [本,Computing]
 ---
 
 ![OYO at Thalia.de](https://res.cloudinary.com/di7y4t4ad/image/upload/article/225/img1-thumb.jpg)
