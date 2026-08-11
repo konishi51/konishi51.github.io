@@ -1,7 +1,7 @@
 ---
 title: "Lideoでしおり同期"
 date: 2012-12-29 00:00:00
-tags: [本,PC]
+tags: [本,Computing]
 ---
 
 [![しおりを同期する](https://res.cloudinary.com/di7y4t4ad/image/upload/article/84/img1-thumb.jpg)](https://res.cloudinary.com/di7y4t4ad/image/upload/article/84/img1-full.jpg)
