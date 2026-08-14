@@ -63,6 +63,15 @@ layout: default
             {{ post.title | escape }}
           </a>
         </h3>
+        {%- assign subtitle_source = post.content | strip_html | strip_newlines | replace: "！", "！。" | replace: "？", "？。" -%}
+        {%- assign subtitle = subtitle_source | split: "。" | first | strip -%}
+        {%- if subtitle != "" -%}
+          {%- assign sentence_ending = subtitle_source | slice: subtitle.size, 1 -%}
+          {%- if sentence_ending == "。" -%}
+            {%- assign subtitle = subtitle | append: "。" -%}
+          {%- endif -%}
+        <p class="post-subtitle">{{ subtitle | truncate: 72, "......" | escape }}</p>
+        {%- endif -%}
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
