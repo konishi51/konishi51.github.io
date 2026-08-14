@@ -67,24 +67,70 @@ layout: default
         {%- assign subtitle_paragraphs = subtitle_paragraph_source | split: "|||POST_SUBTITLE_PARAGRAPH_END|||" -%}
         {%- assign subtitle = "" -%}
         {%- assign subtitle_fallback = "" -%}
+        {%- assign subtitle_quote_buffer = "" -%}
+        {%- assign subtitle_quote_close = "" -%}
         {%- for subtitle_paragraph in subtitle_paragraphs -%}
           {%- assign subtitle_candidate = subtitle_paragraph | strip_html | strip -%}
           {%- if subtitle_candidate != "" -%}
             {%- if subtitle_fallback == "" -%}
               {%- assign subtitle_fallback = subtitle_candidate -%}
             {%- endif -%}
-            {%- assign subtitle_sentence_source = subtitle_candidate | replace: "。", "。|||POST_SUBTITLE_SENTENCE_END|||" | replace: "！", "！|||POST_SUBTITLE_SENTENCE_END|||" | replace: "？", "？|||POST_SUBTITLE_SENTENCE_END|||" -%}
-            {%- if subtitle_sentence_source contains "|||POST_SUBTITLE_SENTENCE_END|||" -%}
-              {%- assign subtitle = subtitle_sentence_source | split: "|||POST_SUBTITLE_SENTENCE_END|||" | first | strip -%}
-              {%- break -%}
+            {%- if subtitle_quote_buffer != "" -%}
+              {%- assign subtitle_quote_buffer = subtitle_quote_buffer | append: " " | append: subtitle_candidate -%}
+              {%- if subtitle_candidate contains subtitle_quote_close -%}
+                {%- assign subtitle_quote_before_close = subtitle_quote_buffer | split: subtitle_quote_close | first -%}
+                {%- assign subtitle = subtitle_quote_before_close | append: subtitle_quote_close | strip -%}
+                {%- break -%}
+              {%- endif -%}
+            {%- else -%}
+              {%- assign subtitle_candidate_first = subtitle_candidate | slice: 0, 1 -%}
+              {%- assign subtitle_quote_close = "" -%}
+              {%- if subtitle_candidate_first == "「" -%}
+                {%- assign subtitle_quote_close = "」" -%}
+              {%- elsif subtitle_candidate_first == "『" -%}
+                {%- assign subtitle_quote_close = "』" -%}
+              {%- elsif subtitle_candidate_first == "“" -%}
+                {%- assign subtitle_quote_close = "”" -%}
+              {%- endif -%}
+              {%- if subtitle_quote_close != "" -%}
+                {%- if subtitle_candidate contains subtitle_quote_close -%}
+                  {%- assign subtitle_quote_before_close = subtitle_candidate | split: subtitle_quote_close | first -%}
+                  {%- assign subtitle = subtitle_quote_before_close | append: subtitle_quote_close | strip -%}
+                  {%- break -%}
+                {%- else -%}
+                  {%- assign subtitle_quote_buffer = subtitle_candidate -%}
+                {%- endif -%}
+              {%- elsif subtitle_candidate contains "。" -%}
+                {%- assign subtitle_sentence = subtitle_candidate | split: "。" | first -%}
+                {%- assign subtitle = subtitle_sentence | append: "。" | strip -%}
+                {%- break -%}
+              {%- else -%}
+                {%- assign subtitle_candidate_last = subtitle_candidate | slice: -1, 1 -%}
+                {%- if subtitle_candidate_last == "！" or subtitle_candidate_last == "？" -%}
+                  {%- assign subtitle = subtitle_candidate -%}
+                  {%- break -%}
+                {%- endif -%}
+              {%- endif -%}
             {%- endif -%}
           {%- endif -%}
         {%- endfor -%}
-        {%- if subtitle == "" -%}
+        {%- if subtitle == "" and subtitle_quote_buffer != "" -%}
+          {%- assign subtitle = subtitle_quote_buffer -%}
+        {%- elsif subtitle == "" -%}
           {%- assign subtitle = subtitle_fallback -%}
         {%- endif -%}
         {%- if subtitle != "" -%}
-        <p class="post-subtitle">{{ subtitle | truncate: 72, "......" | escape }}</p>
+          {%- assign subtitle_display = subtitle | truncate: 72, "......" -%}
+          {%- assign subtitle_length = subtitle | size -%}
+          {%- assign subtitle_last = subtitle | slice: -1, 1 -%}
+          {%- if subtitle_length > 72 -%}
+            {%- if subtitle_last == "」" or subtitle_last == "』" or subtitle_last == "”" -%}
+              {%- assign subtitle_body_length = subtitle_length | minus: 1 -%}
+              {%- assign subtitle_body = subtitle | slice: 0, subtitle_body_length -%}
+              {%- assign subtitle_display = subtitle_body | truncate: 71, "......" | append: subtitle_last -%}
+            {%- endif -%}
+          {%- endif -%}
+        <p class="post-subtitle">{{ subtitle_display | escape_once }}</p>
         {%- endif -%}
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
