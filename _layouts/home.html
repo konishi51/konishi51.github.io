@@ -66,8 +66,9 @@ layout: default
         {%- assign subtitle_source = post.content | strip_html | strip_newlines | replace: "！", "！。" | replace: "？", "？。" -%}
         {%- assign subtitle = subtitle_source | split: "。" | first | strip -%}
         {%- if subtitle != "" -%}
+          {%- assign subtitle_last = subtitle | slice: -1, 1 -%}
           {%- assign sentence_ending = subtitle_source | slice: subtitle.size, 1 -%}
-          {%- if sentence_ending == "。" -%}
+          {%- if sentence_ending == "。" and subtitle_last != "！" and subtitle_last != "？" -%}
             {%- assign subtitle = subtitle | append: "。" -%}
           {%- endif -%}
         <p class="post-subtitle">{{ subtitle | truncate: 72, "......" | escape }}</p>
