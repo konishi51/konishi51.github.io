@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 300" role="img" aria-labelledby="title desc">
+  <title id="title">Tropical island header illustration</title>
+  <desc id="desc">A bright tropical sea with green islands, hibiscus flowers, lush leaves, and a large colorful parrot.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8edbe6"/>
+      <stop offset="0.68" stop-color="#c9eef0"/>
+      <stop offset="1" stop-color="#fff1bf"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#36b8c4"/>
+      <stop offset="1" stop-color="#0e879c"/>
+    </linearGradient>
+    <linearGradient id="wing" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f2c94c"/>
+      <stop offset="0.48" stop-color="#ef6d36"/>
+      <stop offset="1" stop-color="#c83f33"/>
+    </linearGradient>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="1.6"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="300" fill="url(#sky)"/>
+  <g fill="#ffffff" opacity="0.68" filter="url(#soft)">
+    <ellipse cx="520" cy="66" rx="92" ry="20"/>
+    <ellipse cx="585" cy="60" rx="58" ry="24"/>
+    <ellipse cx="940" cy="54" rx="104" ry="18"/>
+    <ellipse cx="1010" cy="59" rx="70" ry="22"/>
+  </g>
+  <path d="M345 157 C410 137 454 110 510 121 C563 132 588 145 639 153 C691 161 742 157 796 157 L796 190 L345 190 Z" fill="#3a966a"/>
+  <path d="M399 157 C443 143 468 126 506 130 C539 134 564 150 596 157 Z" fill="#287852"/>
+  <path d="M788 165 C855 145 921 131 986 144 C1034 153 1070 160 1125 165 L1125 190 L788 190 Z" fill="#4da275"/>
+  <path d="M0 165 C310 153 580 170 856 161 C1119 152 1334 154 1600 166 L1600 300 L0 300 Z" fill="url(#sea)"/>
+  <path d="M0 226 C274 211 429 222 677 216 C935 210 1179 222 1600 205 L1600 244 C1268 252 1068 239 805 242 C502 247 265 240 0 252 Z" fill="#8fddd4" opacity="0.72"/>
+  <path d="M0 252 C251 234 517 254 787 244 C1057 234 1300 242 1600 222 L1600 300 L0 300 Z" fill="#f0d48f"/>
+  <path d="M0 263 C278 246 525 268 792 257 C1093 245 1338 252 1600 236" fill="none" stroke="#fff8df" stroke-width="6" opacity="0.8"/>
+  <g>
+    <path d="M0 0 L0 181 C46 137 64 87 63 16 Z" fill="#1f6f50"/>
+    <path d="M18 5 C55 32 85 56 117 102 C72 87 45 65 14 30 Z" fill="#2e8b59"/>
+    <path d="M36 0 C73 20 111 25 153 47 C106 48 74 38 28 20 Z" fill="#4b9e55"/>
+    <path d="M0 85 C49 74 88 74 141 83 C89 97 52 103 0 104 Z" fill="#58a85a"/>
+    <path d="M79 0 C115 23 146 48 174 84 C132 70 99 47 68 14 Z" fill="#25724c"/>
+    <path d="M0 116 C40 118 80 132 119 158 C73 151 39 142 0 142 Z" fill="#377f50"/>
+  </g>
+  <g transform="translate(126 152)">
+    <ellipse cx="0" cy="-14" rx="18" ry="28" fill="#f24f42" transform="rotate(-8)"/>
+    <ellipse cx="18" cy="1" rx="18" ry="28" fill="#f4684f" transform="rotate(70 18 1)"/>
+    <ellipse cx="7" cy="23" rx="18" ry="28" fill="#e94738" transform="rotate(142 7 23)"/>
+    <ellipse cx="-18" cy="17" rx="18" ry="28" fill="#f66c54" transform="rotate(214 -18 17)"/>
+    <ellipse cx="-22" cy="-7" rx="18" ry="28" fill="#e94b39" transform="rotate(286 -22 -7)"/>
+    <circle cx="-2" cy="4" r="8" fill="#f7c94b"/>
+    <path d="M2 5 C22 2 39 -1 55 -12" fill="none" stroke="#bd3a32" stroke-width="3"/>
+    <circle cx="56" cy="-12" r="3.5" fill="#f5d34f"/>
+  </g>
+  <g transform="translate(1490 198) scale(.78)">
+    <ellipse cx="0" cy="-14" rx="18" ry="28" fill="#f24f42" transform="rotate(-8)"/>
+    <ellipse cx="18" cy="1" rx="18" ry="28" fill="#f4684f" transform="rotate(70 18 1)"/>
+    <ellipse cx="7" cy="23" rx="18" ry="28" fill="#e94738" transform="rotate(142 7 23)"/>
+    <ellipse cx="-18" cy="17" rx="18" ry="28" fill="#f66c54" transform="rotate(214 -18 17)"/>
+    <ellipse cx="-22" cy="-7" rx="18" ry="28" fill="#e94b39" transform="rotate(286 -22 -7)"/>
+    <circle cx="-2" cy="4" r="8" fill="#f7c94b"/>
+  </g>
+  <g>
+    <path d="M1600 0 L1600 300 L1505 300 C1531 230 1544 143 1532 56 Z" fill="#1d694b"/>
+    <path d="M1600 40 C1549 53 1504 75 1468 108 C1520 98 1565 82 1600 62 Z" fill="#3e9559"/>
+    <path d="M1600 86 C1541 92 1489 115 1452 145 C1510 139 1559 122 1600 105 Z" fill="#58aa5c"/>
+    <path d="M1600 139 C1546 145 1502 163 1466 191 C1513 186 1560 175 1600 158 Z" fill="#2c7e4f"/>
+    <path d="M1600 182 C1552 193 1519 216 1495 243 C1536 231 1573 219 1600 203 Z" fill="#62ad5a"/>
+  </g>
+  <g transform="translate(1310 58)">
+    <path d="M104 44 C126 48 145 65 151 88 C156 108 147 132 126 145 C104 158 74 158 56 145 C34 128 29 95 42 70 C55 47 79 39 104 44 Z" fill="#d94135"/>
+    <path d="M70 68 C88 55 109 53 126 62 C108 74 96 89 91 108 C83 134 84 151 77 173 C56 154 42 132 41 106 C41 90 50 77 70 68 Z" fill="url(#wing)"/>
+    <path d="M81 137 C95 153 100 178 91 218 L73 187 L58 225 L59 166 Z" fill="#267f89"/>
+    <path d="M110 47 C119 25 143 16 165 25 C180 31 189 43 190 58 C190 74 176 87 158 88 C142 89 127 82 116 71 Z" fill="#f4cf55"/>
+    <path d="M156 26 C174 20 192 25 202 37 C214 51 211 70 196 82 C184 91 169 93 157 87 C170 79 177 68 177 55 C177 44 170 34 156 26 Z" fill="#f3efe1"/>
+    <path d="M195 37 C222 34 241 45 247 59 C235 70 220 78 201 80 C209 68 210 56 195 37 Z" fill="#232628"/>
+    <circle cx="172" cy="47" r="5" fill="#242424"/>
+    <circle cx="170" cy="45" r="1.5" fill="#ffffff"/>
+    <path d="M79 92 C99 94 115 107 123 126 C105 122 92 116 78 105 Z" fill="#2f9c6c" opacity="0.88"/>
+    <path d="M45 104 C31 94 26 82 28 69 C37 78 43 88 45 104 Z" fill="#1d7250"/>
+    <path d="M52 146 C32 158 16 176 6 202 C31 187 48 173 64 157 Z" fill="#235c53"/>
+  </g>
+  <g fill="#245f45">
+    <path d="M0 232 C48 211 95 214 148 235 C97 236 56 245 0 266 Z"/>
+    <path d="M1510 251 C1544 226 1571 217 1600 216 L1600 278 C1562 272 1534 263 1510 251 Z"/>
+  </g>
+</svg>
