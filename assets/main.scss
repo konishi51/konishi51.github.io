@@ -14,7 +14,7 @@ $grey-color: #746b63;
 // navigation and accessibility.
 .site-header {
   background-color: #9edbe2;
-  background-image: url("{{ '/assets/img/tropical-header.svg' | relative_url }}");
+  background-image: url("{{ '/assets/img/tropical-header.jpg' | relative_url }}");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -279,20 +279,51 @@ $grey-color: #746b63;
   }
 }
 
-@media screen and (max-width: 420px) {
+// Phones get their own composition: a quiet title/menu row above a dedicated
+// tropical crop. This avoids sacrificing either the title or the parrot.
+@media screen and (max-width: 480px) {
   .site-header {
-    background-position: 56% top;
-    min-height: 6.7rem;
+    background-color: #fffaf0;
+    background-image: url("{{ '/assets/img/tropical-header-mobile.jpg' | relative_url }}");
+    background-position: center 3.65rem;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    min-height: calc(3.65rem + 40vw);
   }
 
   .site-header .wrapper {
-    min-height: 6.7rem;
-    padding-top: 3.9rem;
+    min-height: calc(3.65rem + 40vw);
+    padding-top: 0;
+    position: relative;
   }
 
   .site-title,
   .site-title:visited {
-    height: 4.15rem;
+    color: #4b2b1e;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.55rem;
+    font-weight: 700;
+    height: auto;
+    left: 1rem;
+    line-height: 1.2;
+    overflow: visible;
+    top: 0.9rem;
+    width: auto;
+  }
+
+  .site-title:hover {
+    color: #c74f35;
+    text-decoration: none;
+  }
+
+  .site-nav {
+    background: #fffaf0;
+    border-color: rgba(151, 111, 57, 0.28);
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 1rem;
+    top: 0.55rem;
   }
 
   .site-search-controls {
