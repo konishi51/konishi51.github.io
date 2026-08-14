@@ -14,6 +14,14 @@ layout: default
         <span> · <a href="{{ '/about/#touchi-and-chappy' | relative_url }}" rel="author">とうち＆チャッピー</a></span>
       {%- endif -%}
     </p>
+    {%- if page.tags and page.tags.size > 0 -%}
+    <p class="post-tags">
+      <span class="post-tags-label">タグ：</span>
+      {%- for tag in page.tags -%}
+        <a class="post-tag" href="{{ '/' | relative_url }}?tag={{ tag | url_encode }}">{{ tag | escape }}</a>{%- unless forloop.last -%}<span aria-hidden="true"> · </span>{%- endunless -%}
+      {%- endfor -%}
+    </p>
+    {%- endif -%}
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">

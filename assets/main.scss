@@ -54,6 +54,20 @@
   color: #fff;
 }
 
+.post-tags {
+  color: $grey-color;
+  font-size: $small-font-size;
+  margin-top: -0.5em;
+}
+
+.post-tags-label {
+  color: $grey-color;
+}
+
+.post-tag {
+  white-space: nowrap;
+}
+
 .post-list > .post-year {
   align-items: baseline;
   border-bottom: 1px solid $grey-color-light;
