@@ -9,53 +9,61 @@ $grey-color: #746b63;
 
 @import "minima";
 
-// Tropical masthead. The illustration is decorative; the real site title and
-// navigation remain ordinary HTML so the header stays usable and accessible.
+// Tropical masthead. The illustrated image carries the visible title and
+// subtitle; the original site-title link remains in the document for
+// navigation and accessibility.
 .site-header {
-  background-color: #bce8e4;
+  background-color: #9edbe2;
   background-image: url("{{ '/assets/img/tropical-header.svg' | relative_url }}");
-  background-position: center 48%;
+  background-position: center top;
+  background-repeat: no-repeat;
   background-size: cover;
   border-bottom: 1px solid #dfc58f;
   border-top: 0;
   box-shadow: 0 1px 0 rgba(95, 74, 44, 0.08);
-  min-height: 11.5rem;
+  min-height: 12rem;
 }
 
 .site-header .wrapper {
   box-sizing: border-box;
-  min-height: 11.5rem;
-  padding-top: 7.35rem;
+  min-height: 12rem;
+  padding-top: 8.65rem;
+  position: relative;
 }
 
 .site-title,
 .site-title:visited {
-  background: rgba(255, 249, 226, 0.82);
-  border-radius: 0.2em;
-  box-shadow: 0 1px 8px rgba(75, 75, 45, 0.08);
-  color: #71351f;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 2.15rem;
-  font-weight: 700;
-  letter-spacing: 0.015em;
-  line-height: 1.25;
-  margin-top: 0.15rem;
-  padding: 0.08em 0.32em 0.12em;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+  background: transparent;
+  box-shadow: none;
+  color: transparent;
+  font-size: 0;
+  height: 8.4rem;
+  left: 0;
+  line-height: 1;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  text-shadow: none;
+  top: 0;
+  width: 70%;
+  z-index: 1;
 }
 
-.site-title:hover {
-  color: #c74f35;
-  text-decoration: none;
+.site-title:focus-visible {
+  outline: 3px solid #e84e3a;
+  outline-offset: -3px;
 }
 
 .site-nav {
-  background: rgba(255, 250, 237, 0.9);
-  border: 1px solid rgba(151, 111, 57, 0.28);
+  background: rgba(255, 250, 237, 0.94);
+  border: 1px solid rgba(151, 111, 57, 0.3);
   border-radius: 0.8rem;
   line-height: 2.45rem;
-  margin-top: 0.45rem;
+  margin-top: 0.25rem;
   padding: 0 0.7rem;
+  position: relative;
+  z-index: 2;
 }
 
 .site-nav .page-link {
@@ -63,7 +71,8 @@ $grey-color: #746b63;
   font-weight: 600;
 }
 
-.site-nav .page-link:hover {
+.site-nav .page-link:hover,
+.site-nav .page-link:focus-visible {
   color: #c74f35;
 }
 
@@ -243,23 +252,23 @@ $grey-color: #746b63;
 
 @media screen and (max-width: 600px) {
   .site-header {
-    background-position: 58% 48%;
-    min-height: 8.25rem;
+    background-position: 56% top;
+    min-height: 7.6rem;
   }
 
   .site-header .wrapper {
-    min-height: 8.25rem;
-    padding-top: 5.2rem;
+    min-height: 7.6rem;
+    padding-top: 4.55rem;
   }
 
   .site-title,
   .site-title:visited {
-    font-size: 1.72rem;
-    margin-top: 0;
+    height: 4.75rem;
+    width: calc(100% - 3.5rem);
   }
 
   .site-nav {
-    background: rgba(255, 250, 237, 0.94);
+    background: rgba(255, 250, 237, 0.96);
     border-color: rgba(151, 111, 57, 0.35);
     margin-top: 0;
     padding: 0;
@@ -272,7 +281,18 @@ $grey-color: #746b63;
 
 @media screen and (max-width: 420px) {
   .site-header {
-    background-position: 63% 48%;
+    background-position: 56% top;
+    min-height: 6.7rem;
+  }
+
+  .site-header .wrapper {
+    min-height: 6.7rem;
+    padding-top: 3.9rem;
+  }
+
+  .site-title,
+  .site-title:visited {
+    height: 4.15rem;
   }
 
   .site-search-controls {
