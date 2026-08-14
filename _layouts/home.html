@@ -63,14 +63,27 @@ layout: default
             {{ post.title | escape }}
           </a>
         </h3>
-        {%- assign subtitle_source = post.content | strip_html | strip_newlines | replace: "！", "！。" | replace: "？", "？。" -%}
-        {%- assign subtitle = subtitle_source | split: "。" | first | strip -%}
-        {%- if subtitle != "" -%}
-          {%- assign subtitle_last = subtitle | slice: -1, 1 -%}
-          {%- assign sentence_ending = subtitle_source | slice: subtitle.size, 1 -%}
-          {%- if sentence_ending == "。" and subtitle_last != "！" and subtitle_last != "？" -%}
-            {%- assign subtitle = subtitle | append: "。" -%}
+        {%- assign subtitle_paragraph_source = post.content | replace: "</p>", "|||POST_SUBTITLE_PARAGRAPH_END|||" -%}
+        {%- assign subtitle_paragraphs = subtitle_paragraph_source | split: "|||POST_SUBTITLE_PARAGRAPH_END|||" -%}
+        {%- assign subtitle = "" -%}
+        {%- assign subtitle_fallback = "" -%}
+        {%- for subtitle_paragraph in subtitle_paragraphs -%}
+          {%- assign subtitle_candidate = subtitle_paragraph | strip_html | strip -%}
+          {%- if subtitle_candidate != "" -%}
+            {%- if subtitle_fallback == "" -%}
+              {%- assign subtitle_fallback = subtitle_candidate -%}
+            {%- endif -%}
+            {%- assign subtitle_sentence_source = subtitle_candidate | replace: "。", "。|||POST_SUBTITLE_SENTENCE_END|||" | replace: "！", "！|||POST_SUBTITLE_SENTENCE_END|||" | replace: "？", "？|||POST_SUBTITLE_SENTENCE_END|||" -%}
+            {%- if subtitle_sentence_source contains "|||POST_SUBTITLE_SENTENCE_END|||" -%}
+              {%- assign subtitle = subtitle_sentence_source | split: "|||POST_SUBTITLE_SENTENCE_END|||" | first | strip -%}
+              {%- break -%}
+            {%- endif -%}
           {%- endif -%}
+        {%- endfor -%}
+        {%- if subtitle == "" -%}
+          {%- assign subtitle = subtitle_fallback -%}
+        {%- endif -%}
+        {%- if subtitle != "" -%}
         <p class="post-subtitle">{{ subtitle | truncate: 72, "......" | escape }}</p>
         {%- endif -%}
         {%- if site.show_excerpts -%}
