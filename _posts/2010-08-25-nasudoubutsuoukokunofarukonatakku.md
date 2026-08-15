@@ -22,6 +22,8 @@ tags: [お出かけ]
 
 上の写真はピントがボケてて残念ですが、ハヤブサ君が帽子をかぶっているのが分かると思います。 この帽子の秘密は、現地でハヤブサ使いのお姉さんに聞いてください。
 
+<iframe src="https://www.youtube.com/embed/skrKazfsrrY" title="那須どうぶつ王国のファルコンアタック！" style="width: 100%; max-width: 420px; aspect-ratio: 4 / 3; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 昔、すこーしスカイスポーツに憧れたことがあるので、上昇気流を読める動物は思わず尊敬してしまう。いいなー、空飛びたいなー。
 
 このショーは、都市型の動物園ではできないでしょう。郊外の動物園でもよほど敷地にゆとりがないと難しいんじゃないかな。
