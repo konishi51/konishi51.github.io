@@ -8,6 +8,8 @@ tags: [世界街歩き,ドイツ]
 
 Was Niedersachsen erotisch finden Innovatives Niedersachsen
 
+<iframe src="https://www.youtube.com/embed/9VLFdKbiuos" title="ニーダーザクセンのスピードデート" style="width: 100%; max-width: 420px; aspect-ratio: 4 / 3; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 スピードデートに集まる男女。ゴングが鳴ったので男性は新しいテーブルに移る。シルケのところに来たのは、小太りの男。
 
 「シルケです」「ヘニングといいます」「歳は？」「38」「趣味は？」「フィットネスだ」
