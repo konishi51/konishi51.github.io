@@ -71,3 +71,5 @@ tags: [世界街歩き,ドイツ]
 クーッ… （今、目をつぶって酔いしれているところ）
 
 ので、とても独りよがりなブログになりました。最後は、冒頭に出てきた、1886年のとっても古い車が走る様子をご覧ください。それでは。
+
+<iframe src="https://www.youtube.com/embed/VR7tsqdxoME" title="Schwetzingenのクラシックカー祭" style="width: 100%; max-width: 420px; aspect-ratio: 4 / 3; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
