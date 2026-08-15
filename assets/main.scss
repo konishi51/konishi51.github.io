@@ -81,6 +81,61 @@ $grey-color: #746b63;
   border-top-color: #e8cf9d;
 }
 
+// Small botanical ornaments. Keep them typographic in scale so the masthead
+// remains the only large illustration on the site.
+.post-title::after,
+.post-list-heading::after,
+.page-heading::after,
+.post-list > .post-year h3::before,
+.post-content::after {
+  background:
+    linear-gradient(
+      152deg,
+      transparent 45%,
+      rgba(99, 112, 74, 0.42) 46%,
+      rgba(99, 112, 74, 0.42) 50%,
+      transparent 51%
+    ),
+    radial-gradient(ellipse at 18% 68%, #4a7356 0 16%, transparent 18%),
+    radial-gradient(ellipse at 43% 30%, #0f7f91 0 15%, transparent 17%),
+    radial-gradient(ellipse at 69% 64%, #5d845f 0 17%, transparent 19%),
+    radial-gradient(ellipse at 88% 38%, #4a7356 0 12%, transparent 14%);
+  background-repeat: no-repeat;
+  content: "";
+}
+
+.post-title::after,
+.post-list-heading::after,
+.page-heading::after {
+  display: inline-block;
+  height: 0.95rem;
+  margin-left: 0.45rem;
+  opacity: 0.82;
+  transform: rotate(-5deg);
+  vertical-align: 0.02em;
+  width: 2.25rem;
+}
+
+.post-list > .post-year h3::before {
+  display: inline-block;
+  height: 0.62rem;
+  margin-right: 0.3rem;
+  opacity: 0.72;
+  transform: rotate(-7deg);
+  vertical-align: 0.06em;
+  width: 1.35rem;
+}
+
+.post-content::after {
+  clear: both;
+  display: block;
+  height: 1rem;
+  margin: 2.75rem auto 0;
+  opacity: 0.62;
+  transform: rotate(-5deg);
+  width: 2.6rem;
+}
+
 .year-jump {
   margin: 0 0 $spacing-unit;
   line-height: 1.9;

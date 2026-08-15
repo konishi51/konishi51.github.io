@@ -25,7 +25,7 @@ node scripts/check-tag-filtering.js
 
 post_count="$(find _posts -maxdepth 1 -type f -name '*.md' | wc -l | tr -d '[:space:]')"
 html_count="$(find _site -type f -name '*.html' | wc -l | tr -d '[:space:]')"
-expected_html=$((post_count + 4))
+expected_html=$((post_count + 5))
 
 if [[ "$post_count" -lt 315 ]]; then
   echo "ERROR Expected at least 315 posts; found ${post_count}." >&2
