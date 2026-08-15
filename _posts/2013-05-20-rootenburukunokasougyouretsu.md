@@ -50,4 +50,10 @@ tags: [世界街歩き,ドイツ]
 
 最後は動画で。
 
+<iframe src="https://www.youtube.com/embed/FH299x6-Xus" title="ローテンブルクの仮装行列 1" style="width: 100%; max-width: 420px; aspect-ratio: 4 / 3; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe src="https://www.youtube.com/embed/cW3FLPjMO2U" title="ローテンブルクの仮装行列 2" style="width: 100%; max-width: 420px; aspect-ratio: 4 / 3; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe src="https://www.youtube.com/embed/9am7KKscNH0" title="ローテンブルクの仮装行列 3" style="width: 100%; max-width: 420px; aspect-ratio: 4 / 3; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ちなみに、この動画にずっと映ってる観客の、頭の上にサングラスを載せた女性は、モニカ・ベルッチばりの美人で、行進する男性たちがチラ見しながら通り過ぎるなーと思ってみてたら、あちこちで観客にちょっかい出してた行進中の爺さんに抱きつかれてそのまま行進といっしょに拉致されていきました。
