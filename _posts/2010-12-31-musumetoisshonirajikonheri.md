@@ -32,6 +32,8 @@ tags: [娘と一緒に]
 
 などとキャーキャー言いながら飛ばしてました。
 
+<iframe src="https://www.youtube.com/embed/Eh8RtBghOeQ" title="娘と一緒にラジコンヘリ" style="width: 100%; max-width: 420px; aspect-ratio: 4 / 3; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 さすがはジャイロ、小学校3年生でも余裕で飛ばせます。8の字飛行とかまだ無理だけど。四角いループ飛行ができるところまでいくかな。
 
 [ 追記。上の娘にもやらせてみたら、初めてで上昇推力の加減が分からず、1.5mぐらいの高さから墜落。マットレスを敷いてあったにもかかわらず、スタビライザーがぽっきり折れてしまいました。アロンアルファとは相性が悪い素材らしくて全くくっつかず、セメダインでつないで一晩置いてみたところ、一応着きました。が、飛ばしてみたら、ちゃんと飛んだものの、30cmぐらいの高さから墜落した弾みに同じところから切れて吹っ飛びました。とりあえず諦め。何かいい方法がないかなー。
