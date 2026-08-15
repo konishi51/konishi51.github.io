@@ -26,6 +26,8 @@ Satz は setzen に対応してる。 試しに aufsetzen を見てみたら、 
 
 なんとか気を取り直して、少し作り始めてみた。
 
+<iframe allowfullscreen="true" frameborder="0" height="429" mozallowfullscreen="true" src="https://docs.google.com/presentation/d/e/2PACX-1vQnzx2yu_UzcasuNN9MDGBpJHXeO1uCJaC0WrH2Ur1RI3JivydN7ljtMTUtsDNRk4ImV7jP4LvTKifV/embed?start=false&amp;loop=false&amp;delayms=3000" webkitallowfullscreen="true" width="420"></iframe>
+
 とても恣意的な構成になってます。
 
 上半分はアクセントつきの前綴りで、動詞なら分離するもの。ただし、 durch とか empor とか hin, her, zurück, weg など動作方向っぽいものは、たぶん想像が付く範囲の意味にしかならないと踏んで省略。
