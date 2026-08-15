@@ -28,4 +28,6 @@ tags: [世界街歩き,ドイツ]
 
 10分ばかり赤々と燃えた後、花火が始まった。15分弱、フルでお楽しみください。見どころは1分30秒頃から。
 
+<iframe src="https://www.youtube.com/embed/xf1DFhwG0Wk" title="哲学の道から眺める花火大会" style="width: 100%; max-width: 420px; aspect-ratio: 4 / 3; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 帰り道、真っ暗な哲学の道もやっぱり人で一杯だった。

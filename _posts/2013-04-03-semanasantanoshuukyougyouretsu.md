@@ -8,6 +8,8 @@ tags: [世界街歩き]
 
 セマナ・サンタの週は、毎日、お祭りの行列が出る。宗教行列＝プロセッションと言う。昔、人に教わってそういうものがある、ってことは知ってたんだけど、先週アンダルシアに行って、初めて見た。
 
+<iframe src="https://www.youtube.com/embed/FHVuERFBjtA" title="セマナ・サンタの宗教行列" style="width: 100%; max-width: 420px; aspect-ratio: 4 / 3; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 山車、というか神輿というか、キリストやマリア様の像が載った台を大勢で担いで、街の中を、結構細い道を通ってゆっくり進んでいく。ずっと動きっぱなしではなくて、2分進んで5分止まるぐらいのペース。止まってる間は、山車は肩から下してある。山車に足がついてることもあるし、取り外しできる足を担いでる人たちが一本ずつ杖代わりに持って歩いていることもある。
 
 [![キリストの山車、マラガ](https://res.cloudinary.com/di7y4t4ad/image/upload/article/66/img2-thumb.jpg)](https://res.cloudinary.com/di7y4t4ad/image/upload/article/66/img2-full.jpg)

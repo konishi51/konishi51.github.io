@@ -44,6 +44,8 @@ Erlebniswelt を英語に直訳すると、 experience world ってとこか。
 - 多彩な技術的特徴：動かせるパーツ、真の架線駆動、照明効果、など、<br>
   物理的限界に迫る
 
+<iframe src="https://www.youtube.com/embed/sL2zuxSwc44" title="メルクリン博物館" style="width: 100%; max-width: 420px; aspect-ratio: 4 / 3; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ちょっとだけ模型が走っている様子のビデオ。
 
 ![大型車両](https://res.cloudinary.com/di7y4t4ad/image/upload/article/70/img7-thumb.jpg)
