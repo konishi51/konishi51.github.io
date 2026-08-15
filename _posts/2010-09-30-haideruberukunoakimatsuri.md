@@ -32,6 +32,8 @@ tags: [世界街歩き,ドイツ]
 
 こっちでは子供達向けのアトラクション。上のところには"Sterntaler"って書いてある。星の金貨？なんで？彼が登っている縄梯子みたいなのは、左右に傾くようになっていて、上手くバランスを取らないと上までいけません。彼もこのあとすぐ落ちちゃった。
 
+<iframe src="https://www.youtube.com/embed/IWjfBVCtB1o" title="ハイデルベルクの秋祭り" style="width: 100%; max-width: 420px; aspect-ratio: 4 / 3; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 でもって、なんだか賑やかな集団が来ましたよ。なんだか、みんなぞろぞろついていく。
 
 メインストリートに戻ってみると、
