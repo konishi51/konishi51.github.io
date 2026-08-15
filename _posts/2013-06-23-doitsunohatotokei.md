@@ -32,6 +32,8 @@ Kuckucksuhren [Anton Schneider GmbH](http://www.schneider-cuckooclocks.de/) (カ
 
 時計の背面には、蚊取り線香のようなばねがついている。このばねをハンマーが叩くと、ぼーんという柱時計っぽい音がする。カッコウが鳴くのにあわせて、このばねも鳴る。
 
+<iframe src="https://www.youtube.com/embed/qnx44tkyXQI" title="ドイツの鳩時計" style="width: 100%; max-width: 420px; aspect-ratio: 4 / 3; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 カッコウの声と柱時計の音をビデオでどうぞ。
 
 ![電池式の小さい時計](https://res.cloudinary.com/di7y4t4ad/image/upload/article/57/img6-thumb.jpg)
