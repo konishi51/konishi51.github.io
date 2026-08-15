@@ -66,13 +66,19 @@ tags: [娘と一緒に]
 
 が、ここで閃く。アルミ箔を祝い箸に巻いた後、箸を抜くと、棒状に丸まったアルミ箔が残る。これでやってみると．．．
 
+<iframe src="https://www.youtube.com/embed/9Bcm7vLhlwY" title="理科実験 ③" style="width: 100%; max-width: 480px; aspect-ratio: 16 / 9; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 大成功。上は、磁石の真上にアルミ棒を置いた、③のケース。確かに右に転がっていく。
 
 次が問題の、磁石より電池に近い側にアルミ棒を置いた、④のケース。さてどうなるか。
 
+<iframe src="https://www.youtube.com/embed/NGRjRhAwzIc" title="理科実験 ④" style="width: 100%; max-width: 480px; aspect-ratio: 16 / 9; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ほら、やっぱり電池に近い側にころがるじゃん。~~みんなキュウベエに騙されてる！~~ 塾の解説の答は間違ってる！
 
 しかし、もう少し磁石に近いところから始めると．．．
+
+<iframe src="https://www.youtube.com/embed/0mQEaUQ8W3E" title="理科実験 磁石に近い位置" style="width: 100%; max-width: 480px; aspect-ratio: 16 / 9; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 アルミ棒は、ためらうように左右に揺れた後、右に転がっていくのであった。
 
