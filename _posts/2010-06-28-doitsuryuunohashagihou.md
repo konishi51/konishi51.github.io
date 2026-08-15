@@ -8,6 +8,8 @@ tags: [世界街歩き,ドイツ]
 
 その後のお祭り騒ぎの様子：
 
+<iframe src="https://www.youtube.com/embed/J0vyfwveek4" title="ドイツ流のはしゃぎ方" style="width: 100%; max-width: 420px; aspect-ratio: 4 / 3; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 これまでのグループリーグでも騒いでたが、これまでは試合時間が平日だったり、夜だったりして、様子を見に行かなかった。今日は日曜で、ゲームが終わって午後6時。まだ日が高い。
 
 日本の対デンマーク戦の後の渋谷や道頓堀の方が人の密度は高かったみたいだが、こっちは車でパレード。機甲部隊だ。
