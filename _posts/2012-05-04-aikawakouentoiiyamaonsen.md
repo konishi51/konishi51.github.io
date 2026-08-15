@@ -34,6 +34,8 @@ tags: [お出かけ]
 
 豪雨のせいで、ダムは臨時放水中。普段は、特定の曜日の特定の時刻に数分間だけ、観光放水をやってるそうなのだけど、今日は放水し放題！大迫力見放題！
 
+<iframe src="https://www.youtube.com/embed/3CCVKPj5xgM" title="あいかわ公園と飯山温泉" style="width: 100%; max-width: 420px; aspect-ratio: 4 / 3; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 宮ヶ瀬ダムの下流100mぐらいのところにある石小屋ダムも、今日はダムの上から水があふれ出ている。越流というらしい。これも今日だけだそうだ。年に２，３回だって。
 
 [![石小屋ダムの越流](https://res.cloudinary.com/di7y4t4ad/image/upload/article/129/img5-thumb.jpg)](https://res.cloudinary.com/di7y4t4ad/image/upload/article/129/img5-full.jpg)
