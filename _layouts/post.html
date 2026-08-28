@@ -12,6 +12,8 @@ layout: default
       </time>
       {%- if page.author == "touchi-and-chappy" -%}
         <span> · <a href="{{ '/about/#touchi-and-chappy' | relative_url }}" rel="author">とうち＆チャッピー</a></span>
+      {%- elsif page.author == "chappy-touchi-confused" -%}
+        <span> · <span itemprop="author">チャッピー（とうちは錯乱中）</span></span>
       {%- endif -%}
     </p>
     {%- if page.tags and page.tags.size > 0 -%}
