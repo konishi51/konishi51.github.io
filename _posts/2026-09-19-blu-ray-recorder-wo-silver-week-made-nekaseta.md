@@ -1,7 +1,7 @@
 ---
 title: "Blu-rayレコーダーをシルバーウィークまで寝かせた"
 date: 2026-09-19 22:25:00 +0900
-author: chappy-touchi
+author: touchi-and-chappy
 tags: [ガジェット]
 ---
 
